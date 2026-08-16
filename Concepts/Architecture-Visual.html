@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AI Mind — Workflow Diagram</title>
+<style>
+:root {
+  --bg: #0a0e13;
+  --panel: #111820;
+  --panel-2: #0d1219;
+  --border: #1e2a3a;
+  --border-strong: #2a3a4f;
+  --text: #e8eef7;
+  --muted: #8b9bb0;
+  --faint: #5a6a80;
+  --accent: #5b9cff;
+  --harness: #3dd6c6;
+  --loop: #f0b429;
+  --graph: #a78bfa;
+  --outer: #f59e0b;
+  --mid: #38bdf8;
+  --inner: #34d399;
+  --edge: #2e3d52;
+  --human: #f97316;
+  --skill: #c084fc;
+  --pass: #34d399;
+  --fail: #f87171;
+  --radius: 10px;
+  --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.45;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  flex-shrink: 0;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #0f1520 0%, var(--bg) 100%);
+}
+header h1 { margin: 0; font-size: 1.05rem; font-weight: 650; letter-spacing: -0.01em; }
+header .sub { margin: 2px 0 0; color: var(--muted); font-size: 0.78rem; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px 14px; font-size: 0.7rem; color: var(--muted); }
+.swatch { width: 9px; height: 9px; border-radius: 2px; display: inline-block; margin-right: 4px; vertical-align: middle; }
+.layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 380px);
+  min-height: 0;
+}
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+}
+.canvas-wrap {
+  overflow: auto;
+  padding: 20px 16px 32px;
+  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(91,156,255,0.04) 0%, transparent 60%);
+}
+svg.diagram { width: 100%; max-width: 860px; height: auto; display: block; margin: 0 auto; }
+.node { cursor: pointer; }
+.node rect { stroke-width: 1.5; transition: filter 0.12s ease, stroke-width 0.12s ease; }
+.node:hover rect, .node.active rect { filter: brightness(1.18); stroke-width: 2.2; }
+.node .label { fill: var(--text); font-size: 12.5px; font-weight: 600; pointer-events: none; }
+.node .sub { fill: var(--muted); font-size: 9.5px; pointer-events: none; }
+.edge { stroke: var(--edge); stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+.edge.hl { stroke: var(--accent); stroke-width: 2.4; marker-end: url(#arrow-hl); }
+.edge-label { fill: var(--faint); font-size: 9px; pointer-events: none; }
+.section-label { fill: var(--faint); font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; pointer-events: none; }
+.side {
+  border-left: 1px solid var(--border);
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+@media (max-width: 960px) {
+  .side { border-left: none; border-top: 1px solid var(--border); max-height: 48vh; }
+}
+.side-inner {
+  padding: 16px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  min-height: 0;
+}
+.side h2 { margin: 0; font-size: 0.88rem; font-weight: 650; }
+.side .hint { margin: 0; font-size: 0.72rem; color: var(--muted); line-height: 1.4; }
+.flow-btns { display: flex; flex-direction: column; gap: 4px; }
+.flow-btn {
+  text-align: left;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 0.76rem;
+  font-family: inherit;
+  transition: border-color 0.1s, background 0.1s;
+}
+.flow-btn:hover { border-color: var(--border-strong); background: #152033; }
+.flow-btn.active {
+  border-color: var(--accent);
+  background: #152033;
+  box-shadow: 0 0 0 1px rgba(91,156,255,0.25);
+}
+.detail {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  flex: 1;
+  min-height: 180px;
+  overflow: auto;
+}
+.detail h3 { margin: 0 0 6px; font-size: 0.95rem; font-weight: 650; }
+.detail p { margin: 0 0 8px; }
+.chip {
+  display: inline-block;
+  font-size: 0.64rem;
+  padding: 2px 7px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  margin: 0 3px 6px 0;
+}
+.chip.pass { border-color: var(--pass); color: var(--pass); }
+.chip.fail { border-color: var(--fail); color: var(--fail); }
+.detail ol { margin: 6px 0 0; padding-left: 1.15rem; }
+.detail li { margin: 0.28rem 0; }
+.detail .section {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.detail .section strong {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--faint);
+  margin-bottom: 4px;
+}
+.files { margin-top: 4px; font-size: 0.72rem; color: var(--muted); line-height: 1.55; }
+code {
+  color: var(--accent);
+  font-size: 0.7rem;
+  background: #0a0e13;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+footer {
+  flex-shrink: 0;
+  padding: 8px 20px;
+  border-top: 1px solid var(--border);
+  color: var(--faint);
+  font-size: 0.68rem;
+}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>AI Mind — Workflow Diagram</h1>
+    <p class="sub">Click any node to expand · Flow buttons highlight paths</p>
+  </div>
+  <div class="legend">
+    <span><i class="swatch" style="background:var(--accent)"></i>Workflow</span>
+    <span><i class="swatch" style="background:var(--harness)"></i>Harness</span>
+    <span><i class="swatch" style="background:var(--loop)"></i>Loop</span>
+    <span><i class="swatch" style="background:var(--graph)"></i>Graph</span>
+    <span><i class="swatch" style="background:var(--skill)"></i>Vault file</span>
+    <span><i class="swatch" style="background:var(--human)"></i>Human</span>
+  </div>
+</header>
+<div class="layout">
+  <div class="canvas-wrap">
+    <p style="color:var(--muted);font-size:0.85rem;text-align:center;padding:2rem;">
+      Full interactive diagram is available locally at<br/>
+      <code>artifacts/AI-Mind-Workflow-Diagram.html</code><br/><br/>
+      GitHub content limited due to concurrent write contention.<br/>
+      Open the local file for the complete expandable workflow diagram.
+    </p>
+  </div>
+  <aside class="side">
+    <div class="side-inner">
+      <div>
+        <h2>Inspect object</h2>
+        <p class="hint">Full expand panel available in local HTML.</p>
+      </div>
+      <div class="detail">
+        <h3>Layout refactor complete</h3>
+        <p>Local file has the full SVG workflow diagram with expandable nodes, pass/fail criteria, and file-call map.</p>
+      </div>
+    </div>
+  </aside>
+</div>
+<footer>Concepts/Architecture-Visual.html · local full version at artifacts/</footer>
+</body>
+</html>
