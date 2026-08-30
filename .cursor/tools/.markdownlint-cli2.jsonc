@@ -1,0 +1,30 @@
+{
+  // Lint every note in the vault (this config lives in .cursor/tools, so the
+  // globs reach back to the repository root).
+  "globs": ["../../**/*.md"],
+  "ignores": [
+    "**/node_modules/**",
+    "node_modules/**",
+    "../../.cursor/tools/node_modules/**",
+    "../../.git/**"
+  ],
+  "config": {
+    "default": true,
+    // Prose vaults use long lines and wrap in the editor; length is not a defect.
+    "MD013": false,
+    // Notes intentionally embed HTML (e.g. <details>, diagrams).
+    "MD033": false,
+    // Many notes open with a table or frontmatter rather than an H1.
+    "MD041": false,
+    // Obsidian notes use the filename as the title and reuse H1 freely.
+    "MD025": false,
+    // Duplicate headings are fine across sibling sections of long notes.
+    "MD024": { "siblings_only": true },
+    // Allow both ordered-list numbering styles.
+    "MD029": false,
+    // Bare URLs appear in source-capture notes.
+    "MD034": false,
+    // Emphasis is sometimes used as a lightweight heading in tables/callouts.
+    "MD036": false
+  }
+}

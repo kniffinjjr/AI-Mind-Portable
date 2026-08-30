@@ -1,0 +1,17 @@
+{
+  "name": "AI Mind Vault",
+  "install": "cd .cursor/tools && npm ci",
+  "terminals": [
+    {
+      "name": "vault-preview",
+      "command": "cd .cursor/tools && node preview_server.mjs",
+      "description": "Local Markdown preview server for the vault (resolves [[wikilinks]]). Serves http://localhost:4321 — home page, /view/<note>.md, /healthz."
+    }
+  ],
+  "ports": [
+    {
+      "name": "vault-preview",
+      "port": 4321
+    }
+  ]
+}

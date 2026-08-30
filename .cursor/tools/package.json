@@ -1,0 +1,19 @@
+{
+  "name": "ai-mind-vault-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Development tooling for the AI Mind portable vault (link check, lint, preview).",
+  "scripts": {
+    "check-links": "python3 check_links.py",
+    "lint": "markdownlint-cli2",
+    "preview": "node preview_server.mjs",
+    "check": "npm run lint && npm run check-links"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.18.1"
+  }
+}
