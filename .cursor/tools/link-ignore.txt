@@ -1,0 +1,22 @@
+# Baseline of intentionally-dangling wikilink/link targets.
+# One target per line. Lines starting with # are comments.
+# These are PRE-EXISTING and expected in the public portable edition.
+# Regenerate the raw list with:
+#   python3 .cursor/tools/check_links.py --write-baseline
+#
+# The link checker treats these as "ignored" (not failures) so that it still
+# catches NEW broken links introduced by future edits.
+
+# --- Instance residue excluded from the portable tree (see README "Privacy /
+#     portability contract": Projects/personal residue live in My Mind / Work
+#     Mind, not in this public vault). ---
+Projects/07-Career-Management
+Projects/06-Defend-Your-Calendar/Overview
+Sources/Andreysuperior-Foreman-Clipboard-2026-08-02
+
+# --- References to notes not published in this portable edition. ---
+Skills-as-AI-Mind
+Methodology/Career-Pipeline-Mode
+
+# --- Literal prose example of the wikilink syntax (not a real reference). ---
+wikilinks
