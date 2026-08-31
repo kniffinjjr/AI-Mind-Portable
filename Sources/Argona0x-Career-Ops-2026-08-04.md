@@ -42,7 +42,7 @@ TRACKER (statuses, follow-ups, which channels advance)
 4. **Context compounds** — every evaluation sharpens the next; story bank accumulates.
 5. **No new bill** — runs on the CLI subscription already paid.
 
-## What we steal for Career Management
+## What we steal for the recruiter skill
 
 | Piece | Vault / skill use |
 |-------|-------------------|
