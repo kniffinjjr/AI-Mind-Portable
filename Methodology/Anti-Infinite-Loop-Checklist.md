@@ -9,7 +9,6 @@ related:
   - "[[Methodology/Agent-Operating-Workflows]]"
   - "[[Methodology/Loop-Engineering-Template]]"
   - "[[Methodology/Graph-Engineering-Template]]"
-  - "[[Methodology/AI-Tech-Radar]]"
   - "[[Process/Multi-Agent-Coordination]]"
   - "[[Skills/Custom/load-master]]"
   - "[[Skills/Custom/harness-loop-graph]]"
@@ -41,15 +40,8 @@ tags: [loop, hard-stops, checklist, harness]
 | **W3-inner** | Identical fail | **1** then escalate |
 | **W6 / RAI** | Edit cycles per probe | **3–5** |
 | **GitHub write** (contended path/session) | Attempts without SHA success | **2** then escalate |
-| **Radar Discover** (one run) | X threads / posts inspected | **12** |
-| **Radar Discover** | GitHub repos/hits deep-read | **8** |
-| **Radar Discover** | Project seeds queried | **10** |
-| **Radar Discover** | Candidates appended to Watchlist | **15** |
-| **Radar** | Passes per “run radar” | **1** (single-pass exit) |
 | **Load Master wait** | Poll/check cycles before alternate work | **3** |
 | **Graph cycle** | Max revisits / depth unless specified | **3** |
-| **blender-mcp** vision correct | Max mutate→screenshot→correct passes | **5** |
-| **better-interface / pixelslop** | Review/fix passes per invocation | **2** |
 | **human-review** | Agent-initiated re-open without user | **0** (user must request) |
 | **harness-loop-graph skill** | Tool attempts / identical fail / review passes | **3 / 1 / 2** (skill-session only) |
 
@@ -64,11 +56,8 @@ Override only when the user sets a higher bound or a filled Loop/Graph template 
 | Everyday tool retry | Agent-Operating-Workflows W3-inner |
 | System improvement | RAI template + W6 |
 | Write race / false DONE | Multi-Agent-Coordination |
-| Discover expansion | AI-Tech-Radar |
 | Queue wait forever | load-master |
 | Graph cycles | Graph-Engineering-Template §7 |
-| 3D vision loop | blender-mcp |
-| UI polish loop | better-interface · pixelslop |
 | Architecture meta-loop | harness-loop-graph contract |
 
 ---

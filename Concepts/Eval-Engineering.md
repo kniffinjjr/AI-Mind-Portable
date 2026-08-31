@@ -4,7 +4,7 @@ type: concept
 created: 2026-08-02
 updated: 2026-08-03
 tags: [eval, production-ai, control-flow]
-related: ["[[Harness-Loop-Graph-Architecture]]", "[[Forward-Deployed-Engineering]]", "[[Memory-Engineering]]", "[[Methodology/Agent-Process-Porn-and-Reward-Hacking]]", "[[Methodology/Cost-Efficient-Coding-Agent-Context]]", "[[Sources/Ashpreet-Bedi-Recursive-Auto-Improvement-RAI-2026-08-03]]"]
+related: ["[[Harness-Loop-Graph-Architecture]]", "[[Forward-Deployed-Engineering]]", "[[Memory-Engineering]]", "[[Methodology/Agent-Process-Porn-and-Reward-Hacking]]", "[[Methodology/Cost-Efficient-Coding-Agent-Context]]"]
 ---
 
 # Eval Engineering
@@ -23,8 +23,6 @@ related: ["[[Harness-Loop-Graph-Architecture]]", "[[Forward-Deployed-Engineering
 8. **Coding agents are cost-constrained by default** — dual metric on every coding loop (quality **and** tokens/$); prefer structural/minimal context over full-repo reread. See [[Methodology/Cost-Efficient-Coding-Agent-Context]].
 
 ## Production Improvement Pattern: Recursive Auto-Improvement (RAI)
-
-See [[Sources/Ashpreet-Bedi-Recursive-Auto-Improvement-RAI-2026-08-03]].
 
 Canonical **convergent** loop (preferred for production):
 
@@ -51,4 +49,4 @@ This operationalizes principles 1–5 above and pairs cleanly with the Loop Engi
 | Coding context methodology | Map once, inject blast radius; a usage dashboard makes burns visible |
 | RAI / Probe Suite | Improvement loop that turns failures into permanent tests and edits the agent until every probe passes |
 
-See [[Process/Approval-Workflow]], [[Methodology/Production-Ready-Design-Checklist]], [[Methodology/Agent-Process-Porn-and-Reward-Hacking]], [[Methodology/Cost-Efficient-Coding-Agent-Context]], and [[Sources/Ashpreet-Bedi-Recursive-Auto-Improvement-RAI-2026-08-03]].
+See [[Process/Approval-Workflow]], [[Methodology/Production-Ready-Design-Checklist]], [[Methodology/Agent-Process-Porn-and-Reward-Hacking]], and [[Methodology/Cost-Efficient-Coding-Agent-Context]].

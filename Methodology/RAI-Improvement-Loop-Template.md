@@ -3,7 +3,7 @@ title: RAI Improvement Loop Template
 type: template
 created: 2026-08-03
 tags: [template, loop, eval, rai]
-related: ["[[Methodology/Loop-Engineering-Template]]", "[[Concepts/Eval-Engineering]]", "[[Sources/Ashpreet-Bedi-Recursive-Auto-Improvement-RAI-2026-08-03]]"]
+related: ["[[Methodology/Loop-Engineering-Template]]", "[[Concepts/Eval-Engineering]]"]
 ---
 
 # RAI Improvement Loop Template

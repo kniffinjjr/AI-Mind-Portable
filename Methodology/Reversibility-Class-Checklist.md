@@ -5,7 +5,6 @@ created: 2026-08-08
 status: active
 tags: [harness, loop, safety, gates]
 related:
-  - "[[Sources/shepherd-agent-native-git-2026-08-08]]"
   - "[[Concepts/Harness-Loop-Graph-Architecture]]"
   - "[[Methodology/Production-Ready-Design-Checklist]]"
   - "[[Methodology/Loop-Engineering-Template]]"

@@ -20,12 +20,12 @@ See [[Concepts/AI-Mind-Architecture]] and [[Process/Establishing-Your-Minds]].
 | `PATHS.example.md` | Remap roots for GitHub / local Git / plain dir / Obsidian |
 | `Concepts/` | Architecture ideas (HLG, Memory Engineering, FDE, …) |
 | `Methodology/` | Workflows, templates, checklists |
-| `Skills/` | Operational skills + short instruction packs |
+| `Skills/` | Operational skills + short instruction packs (generic agent profiles) |
 | `Process/` | How the documentation is maintained (approval, locks, adopter guide) |
-| `Sources/` | External research captures |
 | `Templates/` | Reusable note templates |
 | `_meta/` | Review Queue, Checkout Locks, Changelog, Conventions |
-| `Drafts/` | Free workspace — not live until promoted |
+
+**Portable scope:** this public edition carries the overall architecture, methodology, process, and a representative set of agent profiles. Domain skills, external-tool catalogs, and research captures live in the private Agentic OS.
 
 **Not portable residue:** personal project trees, identity brain dumps, and work deliverables belong in **My Mind** / **Work Mind**, not here.
 
@@ -65,7 +65,7 @@ Created 2026-08-02 · Portable multi-backend + adopter guide 2026-08-08.
 
 This Vault must stay **grab-able by anyone** without inheriting the original author's identity, employer, home, or machine.
 
-**Allowed:** methodology, skill overlays, toolbox catalogs, generic examples, public third-party links.
+**Allowed:** methodology, skill overlays, generic examples, public third-party links.
 
 **Not allowed:** legal name, emails, GitHub/X handles as identity, employer names, addresses, vehicles, RV/home details, compensation, machine paths (`C:\Users\…`, `E:\…`), instance project overviews, or product SSOT.
 

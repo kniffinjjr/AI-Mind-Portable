@@ -17,10 +17,7 @@ triggers:
   - better feedback to AI
 related:
   - "[[Concepts/Harness-Loop-Graph-Architecture]]"
-  - "[[Concepts/AI-Powered-Premium-Website-Generation]]"
-  - "[[Skills/Custom/better-interface]]"
   - "[[Methodology/Anti-Infinite-Loop-Checklist]]"
-  - "[[Sources/petergyang-human-review-2026-08-05]]"
 upstream: https://github.com/petergyang/human-review
 source_skill_path: $GROK_HOME/skills/human-review/SKILL.md
 ---
@@ -55,4 +52,4 @@ Upstream owns the tool (`npx human-review`). This note is the Vault controlling 
 
 ## Integration
 
-Complements better-interface (polish/a11y) and website-generation workflows. Use after any agent-generated document or UI that the user will actually read.
+Complements documentation and UI-polish workflows. Use after any agent-generated document or UI that the user will actually read.
