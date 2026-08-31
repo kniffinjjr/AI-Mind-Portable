@@ -62,7 +62,8 @@ Suggested *categories* only:
 ## 3. Prompt Construction & Consistency Engine
 
 **Standard template pattern:**
-```
+
+```text
 @Character is [action / pose / emotion] at / in @Location, interacting with @Prop. 
 Camera: [angle, lens feel, movement]. Lighting: [key / fill / time of day]. 
 Style / mood: [cinematic / industrial documentary / clean product / etc.]. 
@@ -70,6 +71,7 @@ Continuity note: [outfit / state from previous shot if chaining].
 ```
 
 **Rules of thumb:**
+
 - Lead with the most important `@` references.
 - Explicitly state camera, lighting, and motion; the model needs them.
 - For multi-shot sequences: keep the same reference set active and add short continuity phrases (“still wearing the same work shirt”, “same golden-hour light”).

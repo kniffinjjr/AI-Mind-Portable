@@ -32,19 +32,23 @@ Full pattern table + vault operating rules: [[Methodology/Agent-Process-Porn-and
 ## Critical review
 
 ### High signal
+
 - Names failure modes Multica/Factory don’t list (close-pump, proof inflation, conformance metastasis).  
 - Aligns with vault: writer ≠ grader, Review Queue as human closer, evidence over confidence.  
 - Dual to “no evals, no production”: **no product, only process → also failure**.
 
 ### Caveats
+
 - Patterns are from one Rust-oriented multi-agent setup; adapt greps/macros to the stack.  
 - Author is promoting orchestration tooling; doctrine stands without the product.  
 - Not a peer-reviewed paper — practice notes from production agent use.
 
 ### Practical use here
+
 - When designing Grok Build multi-agent or batch workflows, paste relevant forbids into agent instructions.  
 - When adding vault or project gates, require defect or release warrant (rule 10).  
 - Failure diagnosis: “looks green, ships nothing” → process porn / reward hack layer.
 
 ## Status
+
 Live source; methodology is the primary durable note.

@@ -17,6 +17,7 @@ tags: [toolbox, kicad, mcp, pcb]
 **One-liner:** Schematic + PCB automation for KiCad 10 via mixelpixx KiCAD-MCP-Server (~137 tools).
 
 **Links:**
+
 - Typical server: mixelpixx/KiCAD-MCP-Server (or equivalent)
 - KiCad 9/10 from https://www.kicad.org/
 

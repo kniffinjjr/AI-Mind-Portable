@@ -24,7 +24,7 @@ Projects do **not** maintain separate workflow documents. They state domain cons
 
 ## 1. Three cycle grains
 
-```
+```text
 OUTER  (meta / improvement)
   RAI · ops review · probe suite batch
   └── evidence = Probe Ledger, metrics, residue diffs
@@ -60,7 +60,7 @@ Declare grain on every filled loop: `Grain: inner | mid | outer`.
 
 ## 2. How layers nest
 
-```
+```text
 Harness                    ← environment for all grains
 ├── tools, permissions, persistence, budgets, observability
 ├── OUTER loop (optional)

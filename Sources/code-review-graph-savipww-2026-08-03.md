@@ -26,6 +26,7 @@ Coding agents re-read large fractions of the repo every question to recover stru
 **code-review-graph:** Tree-sitter map once → local SQLite graph (functions, calls, imports, tests) → on change, walk callers/dependents/tests → give the agent only that set.
 
 **Reported numbers (author/post, not independently re-run here):**
+
 - Flask: ~143,594 → ~2,196 tokens per question  
 - FastAPI: ~948,793 → ~2,653  
 - Median across 6 repos: **~65×** fewer tokens  
@@ -45,19 +46,23 @@ From project README/docs:
 ## Critical review (for AI Mind)
 
 ### Strong / vault-aligned
+
 - Implements **cost-efficient coding context** doctrine: structure once, inject minimum.  
 - Same family as [[Memory-Engineering]] and [[Sources/LazyGraphRAG-N01ennn-2026-08-02]] (structure beats stuffing).  
 - Local-first fits work privacy; dual metric fits a paid subscription + a local usage dashboard.  
 - Honest limitations section is a positive trust signal.
 
 ### Skepticism
+
 - Token multipliers are **marketing/benchmark until re-run** on the owner's repos.  
 - Grok Build may need manual MCP/CLI integration (not necessarily in “auto config” list).  
 - Graph staleness and language edge cases can silently drop true dependents.  
 - Influencer packaging; evaluate the repo, not the star count.
 
 ### Practical next step
+
 Optional pilot on a medium Python/TS repo you own: measure tokens-per-task with vs without graph-selected context. Methodology lives in [[Methodology/Cost-Efficient-Coding-Agent-Context]] regardless of whether this exact tool wins.
 
 ## Not in scope of this source
+
 Quoted skill-recorder / Microsoft “record desktop → skill” is a different product — do not conflate.

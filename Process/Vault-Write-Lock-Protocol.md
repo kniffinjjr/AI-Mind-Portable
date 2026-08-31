@@ -51,7 +51,7 @@ This protocol is **orthogonal** to [[_meta/REVIEW_QUEUE]]:
 1. **Check** [[_meta/CHECKOUT_LOCKS]] (or ask GrokRarian: “who has &lt;path&gt;?”).
 2. If free, **announce in chatroom** to All:
 
-   ```
+   ```text
    CHECKOUT | <your name> | <project or chat label> | paths: <list or prefix> | purpose: <one line> | ETA: <e.g. 10 min or until commit> | status: held
    ```
 
@@ -59,7 +59,7 @@ This protocol is **orthogonal** to [[_meta/REVIEW_QUEUE]]:
 4. **Write sequentially.** Prefer one agent holding the exclusive path; others do non-overlapping work or wait.
 5. On finish, **release**:
 
-   ```
+   ```text
    RELEASE | <your name> | paths: <list> | result: <commit SHA or aborted>
    ```
 

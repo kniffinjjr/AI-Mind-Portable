@@ -17,6 +17,7 @@ tags: [toolbox, obsidian, spatial-ui]
 **One-liner:** 3D “cyberpunk city” view of an Obsidian vault; projects as buildings (status→color, priority→height); launch agents into `projectDir`.
 
 **Links:**
+
 - https://studio.pardesco.com/hypervault
 - Open plugin ecosystem (AGPL community builds)
 

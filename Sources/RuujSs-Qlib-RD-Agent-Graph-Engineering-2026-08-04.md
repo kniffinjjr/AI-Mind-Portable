@@ -33,12 +33,14 @@ While surface content is quant, the architecture is a high-quality public exampl
 **Core idea:** “AI driving data-driven AI.” Automate high-value generic R&D processes (data + models) via coordinated multi-agent loops.
 
 **Topology (simplified):**
+
 - **Research (R) stage** — stronger reasoning model proposes hypotheses, sets goal-aligned prompts, maps domain priors to concrete tasks.
 - **Development (D) stage** — code-generation agent (Co-STEER) implements the task, executes in real environments (Docker / Qlib backtests / benchmarks).
 - **Feedback stage** — thorough evaluation of real outcomes feeds the next iteration; multi-armed bandit for adaptive direction selection.
 - Alternating / joint co-optimization (factor ↔ model in quant; feature ↔ model in general data science).
 
 **Design principles that map directly to us:**
+
 - Explicit R → D → Feedback cycle = Nested Cycle / RAI outer loop.
 - Data-centric (schema-level interaction, temporal validity, no leakage).
 - Independent specialized units with clear interfaces (Writer ≠ Checker style separation).

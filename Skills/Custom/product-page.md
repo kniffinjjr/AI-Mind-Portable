@@ -22,12 +22,14 @@ product page · PDP · ecommerce product page · photo to product page · produc
 ## Input contract
 
 Minimum:
+
 - Product name + what it is
 - Primary image(s) (hero, optional lifestyle/detail)
 - Price and currency
 - Key benefits / specs the seller will stand behind
 
 Optional:
+
 - Variants (size, flavor, color)
 - Bundle or upsell candidates
 - Brand tokens (`design-system`)

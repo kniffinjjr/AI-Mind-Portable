@@ -25,6 +25,7 @@ related:
 A Three.js landing page with **3D scrolling for every section**. Atmospheric “KAGE – Hidden Realms of Kyoto” narrative experience (torii, temples, vermilion moon, lanterns, mist, maple).
 
 **Key performance claim:**
+
 - Whole site (apart from images): **922 KB on disk / 290 KB gzipped**
 - Typical 1080p scrolling-video sites: **20–100 MB**
 

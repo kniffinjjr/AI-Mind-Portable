@@ -85,7 +85,7 @@ Adopter guide: `Process/Establishing-Your-Minds.md`.
 
 ## 5. Failure quick card
 
-```
+```text
 Missing capability / lost state / no audit → Harness
 Unbounded retry / no evidence / self-grade → Loop
 Wrong order / skipped gate / bad merge → Graph

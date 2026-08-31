@@ -20,6 +20,7 @@ Demo (~170s video): builds a medieval battlefield from existing assets (knights,
 Key insight (also noted in replies and by @grok): the agent treats the scene as a stateful, inspectable environment and keeps editing the *real* project rather than regenerating images.
 
 **Key open-source implementations:**
+
 - https://github.com/jaskirat1616/grok-blender-mcp (Grok-first, vision screenshots, high-level safe tools, auto-undo, guarded code)
 - https://github.com/ahujasid/blender-mcp (popular general MCP, screenshots, Sketchfab/Poly Haven/Rodin integrations)
 - Blender Lab MCP: projects.blender.org/lab/blender_mcp

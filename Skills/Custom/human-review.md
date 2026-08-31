@@ -32,6 +32,7 @@ source_skill_path: $GROK_HOME/skills/human-review/SKILL.md
 Upstream owns the tool (`npx human-review`). This note is the Vault controlling overlay + Grok integration notes. Runtime body lives at `source_skill_path`.
 
 ## Core Behavior
+
 - After writing or updating readable artifacts (PRDs, landing pages, product copy, plans, decks, local apps), open them with `/human-review` or `npx -y human-review <path-or-url>`
 - Poll with the official loop until feedback arrives **or tool timeout**
 - Apply every edit **verbatim** (especially `after` / `after_html`) to the **source** (Markdown/MDX/TSX), never the rendered output
@@ -46,10 +47,12 @@ Upstream owns the tool (`npx human-review`). This note is the Vault controlling 
 | Poll past tool timeout with no feedback | Escalate / skip gate with residue note |
 
 ## Non-negotiables
+
 - Local only — never upload content
 - User edits are authoritative; do not “improve” or revert them
 - Preserve Markdown / source formatting fidelity
 - One batch → apply → stop (re-open only on user request)
 
 ## Integration
+
 Complements better-interface (polish/a11y) and website-generation workflows. Use after any agent-generated document or UI that the user will actually read.

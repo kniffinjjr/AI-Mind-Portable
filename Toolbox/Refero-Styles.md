@@ -19,6 +19,7 @@ tags: [toolbox, design-system, design.md, agents, grok-build]
 **One-liner:** 2,000+ real design systems turned into **AI-readable `DESIGN.MD` files** (colors, type, spacing, rules) for Cursor, Claude Code, v0, Grok Build, and similar agents.
 
 **Links:**
+
 - https://styles.refero.design
 - Source post cluster: https://x.com/tranmautritam/status/2088189728432799797
 
@@ -27,6 +28,7 @@ tags: [toolbox, design-system, design.md, agents, grok-build]
 Not a React component library. A **reference library of design-system documents** formatted so agents can load tokens and rules into context when generating UI.
 
 Typical contents of a `DESIGN.MD`:
+
 - Color palette / semantic colors
 - Typography scale
 - Spacing / layout rules

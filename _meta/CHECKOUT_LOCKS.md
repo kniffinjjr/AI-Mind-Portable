@@ -20,6 +20,7 @@ related:
 **Who orders the line:** Load Master (`_meta/WRITE_QUEUE.md`) — not the Librarian.
 
 Orthogonal boards:
+
 - REVIEW_QUEUE = may this become permanent knowledge?
 - WRITE_QUEUE = whose turn / priority?
 - CHECKOUT_LOCKS = who holds this path right now?
@@ -48,7 +49,7 @@ Orthogonal boards:
 
 ## Quick claim format
 
-```
+```text
 CHECKOUT | <holder> | <project> | paths: <list> | purpose: <one line> | ETA: <time> | status: held
 RELEASE  | <holder> | paths: <list> | result: <commit SHA or aborted>
 ```

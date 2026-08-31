@@ -54,7 +54,7 @@ Sections, hierarchy, and information architecture only. No polish. No motion. Co
 
 ### Phase 2 — Sequential polish (order is mandatory)
 
-```
+```text
 type  →  spacing  →  motion
 ```
 
@@ -117,7 +117,7 @@ This is lightweight [[Eval-Engineering]]: the verdict changes the next edge (fix
 
 ## Sequential Polish Checklist (copy into PR)
 
-```
+```text
 [ ] Identity brief frozen
 [ ] Structure complete without motion
 [ ] Type: scale, families, tracking

@@ -9,10 +9,12 @@ tags: [source, multica, agent-factory, sageroute, production-ai]
 # Multica + Agent Factory (July 30, 2026)
 
 **Sources:**  
+
 - https://x.com/Av1dlive/status/2082807521161654576  
 - Article: https://x.com/i/article/2082454613601705984  
 
 **Repos:**  
+
 - Multica: https://github.com/multica-ai/multica  
 - SageRoute / Agent Factory: https://github.com/codejunkie99/sageroute  
 

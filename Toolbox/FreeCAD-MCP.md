@@ -16,6 +16,7 @@ tags: [toolbox, freecad, mcp, cad]
 **One-liner:** Live FreeCAD 1.1 control via neka-nat XML-RPC addon + stdio MCP.
 
 **Links:**
+
 - GitHub: https://github.com/neka-nat/freecad-mcp
 
 ## When to use

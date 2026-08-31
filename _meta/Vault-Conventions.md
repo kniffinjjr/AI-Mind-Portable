@@ -10,6 +10,7 @@ tags: [system, meta]
 This vault is the personal Obsidian-style clone of the AI Mind.
 
 ## Folder Purpose
+
 - **00_Home.md**: Single entry-point dashboard / Map of Content (MOC).
 - **_meta/**: Meta files that control the vault itself (never delete without approval). Contains REVIEW_QUEUE, CHANGELOG, conventions, eval logs, approval history.
 - **Skills/Custom/**: One atomic note per custom skill. These are curated overlays, not full copies of SKILL.md.
@@ -25,11 +26,13 @@ This vault is the personal Obsidian-style clone of the AI Mind.
 - **Projects/**: Migrated project documents from Google Drive.
 
 ## Linking
+
 - Use Obsidian-style `[[wikilinks]]` for all internal references.
 - Prefer `[[Skills/Custom/eval-engineering]]` or just `[[eval-engineering]]` if unambiguous.
 - Tags: `#skill` `#concept` `#domain/trading` `#status/active` `#status/draft`
 
 ## Free Access vs Gated Updates
+
 - AI team may freely create, edit, and delete anything in **Drafts/**, **Inbox/**, and **_meta/REVIEW_QUEUE.md**.
 - AI team may freely *read* the entire vault and the underlying SKILL.md files.
 - Any change that promotes content into Skills/, Concepts/, Domains/, Sources/, or Process/ (or modifies existing live notes) **must** be entered as a proposal in `_meta/REVIEW_QUEUE.md` and wait for explicit user approval.

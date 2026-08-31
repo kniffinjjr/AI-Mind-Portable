@@ -30,6 +30,7 @@ source_skill_path: $GROK_HOME/skills/grokrarian/SKILL.md
 Runtime body lives at `source_skill_path`. This note is the vault overlay.
 
 ## Core Behavior
+
 - Orient first against `00_Home.md` + `AGENTS.md` + relevant indexes when knowledge is needed and context is thin.
 - Prefer exact retrieval via GitHub tools over inventing principles.
 - Route the correct controlling document (Concepts, Methodology, Skills, Projects, Sources) into the conversation.
@@ -37,7 +38,9 @@ Runtime body lives at `source_skill_path`. This note is the vault overlay.
 - Respect the Review Queue for any permanent writes.
 
 ## Purpose
+
 Solves the cold-start problem. Makes the Vault an actively queryable mind rather than passive storage. Operationalizes Memory Engineering (storage ≠ memory).
 
 ## Relationship
+
 Harness improvement for context injection and knowledge routing. Domain skills remain the specialists. AGENTS.md + Agent-Operating-Workflows.md remain the architecture SOP; GrokRarian surfaces them.

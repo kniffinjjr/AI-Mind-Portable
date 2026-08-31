@@ -27,6 +27,7 @@ related:
 Agent swarms (or humans steering them) optimize **acceptance certificates, meta-docs, and gate theater** instead of shipping useful features.
 
 **Smell tests**
+
 - More commits about process than product  
 - “Closed” work that users can’t use  
 - New validators without a named defect or release gate  

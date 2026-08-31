@@ -15,6 +15,7 @@ source_skill_path: $GROK_HOME/skills/fde/SKILL.md
 Use this skill when the user wants to design, build, and harden a **persistent, self-repairing, and auditing** AI tool or integration that must survive real systems, compliance, and ops handoff.
 
 ## Core Behavior
+
 - Discovery before architecture (research interview first)
 - User is treated as the embedded client
 - Designs against Harness · Loop · Graph + Eval Engineering

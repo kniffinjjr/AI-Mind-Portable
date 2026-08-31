@@ -10,7 +10,7 @@ tags: [graph, loop, dynamic-graph, shared-state, residue, org, multi-agent]
 related: ["[[Concepts/Harness-Loop-Graph-Architecture]]", "[[Methodology/Handoff-Artifact-Spec]]", "[[Sources/Greg-Isenberg-Graph-Engineering-2026-08-03]]", "[[Concepts/Architecture-Visual]]"]
 ---
 
-# Saboo: Loops made agent behavior programmable. Graphs make agent orgs programmable.
+# Saboo: Loops made agent behavior programmable. Graphs make agent orgs programmable
 
 **Core distinction**
 

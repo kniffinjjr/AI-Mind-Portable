@@ -13,6 +13,7 @@ High-signal 8-step roadmap on the Forward Deployed Engineer / Applied AI Enginee
 **Core claim:** 95% of enterprise AI projects fail on integration, not model capability. The high-paid role is the engineer who closes that gap.
 
 **Key points captured:**
+
 - Role definition and mental model (founding engineer on someone else’s product)
 - Why the role exploded (AI broke generic SaaS + labs need speed + modern tooling economics)
 - Market map (FDE / Applied AI Engineer / FDSE / Solutions Engineer etc.) and compensation bands

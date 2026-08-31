@@ -16,6 +16,7 @@ tags: [toolbox, blender, mcp]
 **One-liner:** ahujasid/blender-mcp — socket addon in Blender + `uvx blender-mcp`.
 
 **Links:**
+
 - GitHub: https://github.com/ahujasid/blender-mcp
 
 ## When to use

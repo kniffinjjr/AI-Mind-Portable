@@ -45,6 +45,7 @@ The Probe Ledger itself (before/after verdicts, latency deltas, exact changes) i
 ## Harness Prerequisites (non-negotiable)
 
 The coding agent must be able to:
+
 - Query the live target agent (API / invocation)
 - Watch complete logs / trajectories
 - Make code / instruction changes and re-test

@@ -8,12 +8,14 @@ description: Editorial technical diagrams as HTML+SVG or Excalidraw — architec
 Grok skill for editorial diagrams (adapted from cathrynlavery/diagram-design, MIT).
 
 **Backends**
+
 - HTML + inline SVG → `artifacts/*.html`
 - Excalidraw → connected `excalidraw___create_view`
 
 **Full package** lives in this folder: `Skills/Custom/diagram-design/` (SKILL.md + references/).
 
 **AI Mind mapping**
+
 | Concept | Type |
 |---|---|
 | INNER ⊂ MID ⊂ OUTER | Nested |

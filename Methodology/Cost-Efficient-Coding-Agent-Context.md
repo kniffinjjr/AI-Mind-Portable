@@ -55,7 +55,7 @@ That is **raw context as memory** — the failure Memory Engineering and LazyGra
 
 ## Pattern: code intelligence graph (tool-agnostic)
 
-```
+```text
 repo → parse (Tree-sitter / language servers)
      → nodes: functions, classes, imports, tests
      → edges: calls, inheritance, test coverage

@@ -241,7 +241,7 @@ Templates: [[Methodology/RAI-Improvement-Loop-Template]] · [[Methodology/Probe-
 
 # Quick decision card
 
-```
+```text
 UNBOUNDED RETRY?     → W3-inner: max 3; identical fail ×1 then stop
 WRITE NO SHA ×2?     → Multi-Agent-Coordination: escalate
 CAN'T AUDIT?         → Harness observability / residue (W2/W4)

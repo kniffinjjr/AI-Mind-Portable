@@ -63,6 +63,7 @@ Aliases are allowed in product docs (`staging`, `preprod`, `uat`) but the vault 
 ## 4. Promotion evidence (minimum)
 
 ### DEV → TEST
+
 - Unit / integration tests green on the change
 - Manual or automated smoke against DEV
 - Residue: PR / commit / artifact list + known limitations
@@ -70,6 +71,7 @@ Aliases are allowed in product docs (`staging`, `preprod`, `uat`) but the vault 
 - IaC plan (if applicable) shows only expected resources
 
 ### TEST → PROD
+
 - Full test suite + any environment-specific probes green
 - Production-Ready Design Checklist critical items green (or waivers documented)
 - Skeptic or independent reviewer notes (Writer ≠ Checker)
@@ -133,7 +135,7 @@ Infrastructure-as-Code = version-controlled declarations (Terraform / OpenTofu, 
 
 The pipeline is a **mid-grain static graph** that realizes the promotion topology:
 
-```
+```text
 DEV change → Plan (DEV) → Apply (DEV) → Validate
           → Promote artifact → Plan (TEST) → Review → Apply (TEST) → Validate
           → Human gate → Plan (PROD) → Approve → Apply (PROD) → Monitor

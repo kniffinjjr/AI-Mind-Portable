@@ -75,7 +75,7 @@ Override only when the user sets a higher bound or a filled Loop/Graph template 
 
 ## Quick exit card
 
-```
+```text
 Same tool fail twice?     → STOP / escalate
 No new evidence this turn? → STOP that branch
 Write without SHA ×2?     → STAND DOWN, escalate

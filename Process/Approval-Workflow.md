@@ -24,6 +24,7 @@ tags: [process, system]
 ## How the User Approves
 
 Reply in conversation with one of:
+
 - `approve [title or ID]`
 - `approve all pending`
 - `approve with changes: [instructions]`

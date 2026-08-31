@@ -18,6 +18,7 @@ tags: [toolbox, ui, react, shadcn]
 **One-liner:** Copy-paste animated React components for design engineers; shadcn-compatible companion library (~22k★, MIT).
 
 **Links:**
+
 - https://magicui.design
 - https://github.com/magicuidesign/magicui
 - MCP (AI editor install): https://github.com/magicuidesign/mcp

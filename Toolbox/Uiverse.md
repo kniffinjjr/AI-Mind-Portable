@@ -16,6 +16,7 @@ tags: [toolbox, ui, inspo]
 **One-liner:** Community UI element inspiration (buttons, cards, loaders); copy HTML/CSS — not a product design system.
 
 **Links:**
+
 - https://uiverse.io/
 - Galaxy-related community assets as linked from radar bookmarks
 

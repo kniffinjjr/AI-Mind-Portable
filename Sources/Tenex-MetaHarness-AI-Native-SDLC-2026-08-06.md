@@ -44,7 +44,7 @@ Full article: https://www.tenex.co/blog/building-an-ai-native-sdlc
 
 **Concrete folder grammar they use (illustrative, not mandatory for us):**
 
-```
+```text
 1-docs/          # current truth
 2-epics/
 3-project-specs/

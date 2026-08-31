@@ -39,4 +39,3 @@ updated: 2026-08-02
 - [x] DYC living GDD merge v0.1–v0.3 → v0.4 + private GitHub repo + HLG pre-fills (2026-08-02)  
 - [ ] Skills inventory from original AI_Mind.md still sparse (only FDE skill note)  
 - [ ] Concepts/Skills-as-AI-Mind still missing as dedicated note  
-

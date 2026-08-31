@@ -27,6 +27,7 @@ related: ["[[Concepts/Harness-Loop-Graph-Architecture]]", "[[Methodology/Graph-E
 6. **Smallest graph that improves quality** + human gates placed at asymmetric risk points.
 
 **Implementation ladder (practical):**
+
 - Level 1: Manual whiteboard / Excalidraw / markdown lanes
 - Level 2: Claude Code / Codex with each job writing its own file (paper trail)
 - Level 3: LangGraph / n8n / AutoGen / Codex dynamic workflows

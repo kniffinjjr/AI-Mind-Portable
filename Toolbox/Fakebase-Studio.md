@@ -16,6 +16,7 @@ tags: [toolbox, sql, work-candidate]
 **One-liner:** Postgres schema / SQL exploration tool; candidate for work SQL workflows — **verify AI migrations** before production use.
 
 **Links:**
+
 - https://fakebase.studio/
 - Radar bookmark entry for context
 

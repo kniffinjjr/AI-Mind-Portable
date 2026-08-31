@@ -17,6 +17,7 @@ related: ["[[Concepts/Harness-Loop-Graph-Architecture]]", "[[Methodology/Graph-E
 LLM → Embeddings → Vector DB → RAG → LangGraph → MCP
 
 **Timestamps (from the post):**
+
 - 00:40 — How LLMs process prompts and context
 - 05:56 — Building AI workflows with LangChain
 - 24:46 — Vector databases and semantic retrieval

@@ -31,6 +31,7 @@ source_skill_path: $GROK_HOME/skills/blender/SKILL.md
 Runtime body lives at `source_skill_path`. This note is the vault overlay.
 
 ## Core Behavior
+
 - Prefer high-level safe tools over raw `execute_blender_code` / bpy
 - Always inspect (screenshot or scene query) after mutations
 - Treat the `.blend` as the single source of truth; iterate on real state
@@ -47,12 +48,14 @@ Runtime body lives at `source_skill_path`. This note is the vault overlay.
 Do not open endless orientation/scale fix loops. See [[Methodology/Anti-Infinite-Loop-Checklist]].
 
 ## Safety Non-negotiables
+
 - Working-copy isolation preferred
 - Auto-undo / Safe Mode when available
 - Never run unconstrained Python against production assets without checkpoints
 - Human approval for destructive or irreversible ops
 
 ## Typical Loop
+
 Compose / import assets → place & orient → lights/cameras/audio → screenshot → correct → polish → human review.
 
 See full skill for tool catalog, failure modes (origin/orientation/scale/parenting), and integration notes for grok-blender-mcp / ahujasid/blender-mcp / Blender Lab.
