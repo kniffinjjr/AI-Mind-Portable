@@ -16,7 +16,6 @@ Cross-cutting **types** of work. Instance projects stay in My Mind / Work Mind.
 | **Agent / harness tooling** | harness-loop-graph, accountant, grokrarian | Observability, MCP catalogs |
 | **Personal finance** | fiduciary-investor, accountant | Never mix with work residue |
 | **Real estate / rental ops** | tx-fl-real-estate | Legal notices are high-reversibility |
-| **Career / hiring** | worlds-greatest-recruiter, first-principles-research | Trackers stay off this Vault |
 | **Games / interactive** | unity, blender | Product GDD lives in the game repo |
 
 Add your own domain rows locally if needed; do not put named employer or personal properties here.

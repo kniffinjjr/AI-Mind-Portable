@@ -3,7 +3,7 @@ title: 0xMorlex — Forward Deployed Engineer Roadmap
 type: source
 date: 2026-07-31
 url: https://x.com/0xmorlex/status/2083144963819270357
-tags: [source, fde, production-ai, career]
+tags: [source, fde, production-ai]
 ---
 
 # Source: 0xMorlex FDE Roadmap (31 Jul 2026)

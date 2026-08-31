@@ -101,7 +101,7 @@ This is a classic **Harness** (Grok Imagine + References as action surface + per
 - **Personal / Branding:** `@Owner` + locations (defined in My Mind).
 - **Projects:** Visuals for whatever is in My Mind / Work Mind — not listed here.
 - **Website / Portfolio generation:** Cross-link [[AI-Powered-Premium-Website-Generation]].  
-- **Agent personas:** Each specialized Grok agent (FDE, recruiter, etc.) can eventually own a visual reference set so media “about” or “by” the agent stays consistent.  
+- **Agent personas:** Each specialized Grok agent (FDE, researcher, etc.) can eventually own a visual reference set so media “about” or “by” the agent stays consistent.  
 - **Memory Engineering:** References are durable externalized state (intentional residue). Keep them versioned and queryable.
 
 ---

@@ -20,7 +20,6 @@ updated: 2026-08-02
 | Work Mind | Yes → Work/Work-Brain-Dump |
 | Game / product docs | Yes → pointers only; SSOT stays in the product repo |
 | BACKGROUND / Legal / Photos / Resumes (bulk) | **No** — not project/research knowledge |
-| Blue Origin / Tesla interview packs | **Deferred** — career artifacts; pointer in brain dump |
 | Applications CSV | **Deferred** — private operational data; remains on Drive |
 | Excalidraw binary | **Skipped** — binary art, not markdown knowledge |
 

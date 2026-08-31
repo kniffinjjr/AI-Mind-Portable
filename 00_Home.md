@@ -66,7 +66,6 @@ tags: [moc, dashboard, ai-mind]
 - [[Skills/Custom/human-review|human-review]]
 - [[Skills/Custom/blender-mcp|blender-mcp]] / [[Skills/Custom/freecad|freecad]] / [[Skills/Custom/kicad|kicad]]
 - [[Skills/Custom/obs|obs]] / [[Skills/Custom/docker|docker]] / [[Skills/Custom/unity|unity]] / [[Skills/Custom/comfyui|comfyui]]
-- [[Skills/Custom/worlds-greatest-recruiter|worlds-greatest-recruiter]]
 
 ### Toolbox
 

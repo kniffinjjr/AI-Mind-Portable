@@ -111,7 +111,7 @@ Microsoft Research (Jonathan Larson numbers as reported): LazyGraphRAG won **~92
 
 ## Open questions for the owner
 
-1. Which agent loops deserve a **facts/skills write path** first (job-search prefs? hardware diagnostics? calendar agent)?  
+1. Which agent loops deserve a **facts/skills write path** first (hardware diagnostics? calendar agent?)?  
 2. Should vault + runtime memory share a **contradiction / forgetting** checklist under Methodology/?  
 3. Eval suite: one data-local benchmark comparing raw context vs vector vs graph (LazyGraphRAG or MemOS) on a personal corpus?
 4. When a work-hosted multi-size same-family fleet exists: does prefill invalidation on route show up in $ / TTFT metrics enough to justify KV-transfer R&D?

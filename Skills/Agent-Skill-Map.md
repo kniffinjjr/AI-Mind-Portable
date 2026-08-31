@@ -115,7 +115,7 @@ Portable names used in codex-mind-pack `personalities/`. Same skills; neutral br
 3. New skills need Short-Instructions (or pack personality) **and** this map (and pack map when work-portable).
 4. **No parallel root `SKILLS.md`.** Relocate/consolidate via [[Skills/Relocate-Consolidate]].
 5. Permanent Vault skill notes still go through REVIEW_QUEUE unless the user explicitly directs an update (as on 2026-08-10).
-6. Pack stays work-safe: personal finance, tax, RE, recruiter, and named product catalogs do not ship on a public origin.
+6. Pack stays work-safe: personal finance, tax, RE, and named product catalogs do not ship on a public origin.
 
 ---
 
