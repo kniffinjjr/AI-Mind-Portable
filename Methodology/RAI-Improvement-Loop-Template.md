@@ -3,7 +3,7 @@ title: RAI Improvement Loop Template
 type: template
 created: 2026-08-03
 tags: [template, loop, eval, rai]
-related: ["[[Methodology/Loop-Engineering-Template]]", "[[Concepts/Eval-Engineering]]", "[[Sources/Ashpreet-Bedi-Recursive-Auto-Improvement-RAI-2026-08-03]]"]
+related: ["[[Methodology/Loop-Engineering-Template]]", "[[Concepts/Eval-Engineering]]"]
 ---
 
 # RAI Improvement Loop Template
@@ -55,6 +55,7 @@ No open FAIL items remain (or remaining failures are explicitly escalated to hum
 ## 6. Evidence of Success / Failure
 
 **Primary evidence:**
+
 1. Probe Ledger (PASS / FAIL per probe ID)  
 2. Full log inspection for each run  
 3. Diff of changes made (prompt lines or code)  

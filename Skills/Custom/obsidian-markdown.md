@@ -12,7 +12,6 @@ triggers:
   - agent-operable notes
   - clean note ingest
 related:
-  - "[[Sources/Obsidian-Skills-kepano-2026-08-07]]"
   - "[[Skills/Custom/grokrarian]]"
   - "[[Skills/Custom/page-master]]"
   - "[[Skills/Short-Instructions]]"

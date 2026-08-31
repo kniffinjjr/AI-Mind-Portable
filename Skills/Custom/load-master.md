@@ -99,7 +99,7 @@ Load Master updates this board. Free-write class (like CHECKOUT_LOCKS).
 
 ## Chatroom protocol
 
-```
+```text
 ENQUEUE | <agent> | P<0-3> | paths: <list> | purpose: <one line>
 GRANT   | <agent> | id: <W#> | paths: <list> | you may write now
 DONE    | <agent> | id: <W#> | result: <commit SHA or aborted>

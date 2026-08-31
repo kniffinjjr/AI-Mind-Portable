@@ -6,7 +6,7 @@ updated: 2026-08-14
 source: https://x.com/i/article/2080670611538329601
 migrated_from: Google Drive / AI Agent Architecture - Harness Loop Graph Methodology / 00 - Methodology Overview
 tags: [production-ai, harness, loop, graph, architecture, hard-stops]
-related: ["[[Eval-Engineering]]", "[[Forward-Deployed-Engineering]]", "[[Memory-Engineering]]", "[[Skills-as-AI-Mind]]", "[[Skills/Custom/harness-loop-graph]]", "[[Sources/Greg-Isenberg-Graph-Engineering-2026-08-03]]"]
+related: ["[[Eval-Engineering]]", "[[Forward-Deployed-Engineering]]", "[[Memory-Engineering]]", "[[Skills/Custom/harness-loop-graph]]"]
 ---
 
 # AI Agent Architecture: Harness, Loop & Graph Engineering
@@ -132,13 +132,13 @@ Draw the topology first. Run it by hand once with separate lanes/files. Only the
 
 **Smallest graph that improves quality** + place human gates where mistakes are expensive.
 
-See also: [[Sources/Greg-Isenberg-Graph-Engineering-2026-08-03]], [[Methodology/Graph-Engineering-Template]]
+See also: [[Methodology/Graph-Engineering-Template]]
 
 ---
 
 ## How the layers nest
 
-```
+```text
 Harness
 └── Graph (explicit topology)
     └── Loop(s)

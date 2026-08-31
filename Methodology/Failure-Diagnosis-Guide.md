@@ -12,7 +12,7 @@ tags: [guide, harness, loop, graph, debugging]
 
 ## Diagnostic decision tree
 
-```
+```text
 Missing capability?
   → Harness (tools, permissions, environment)
 

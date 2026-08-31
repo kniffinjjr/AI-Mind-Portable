@@ -11,10 +11,6 @@ related:
   - "[[Harness-Loop-Graph-Architecture]]"
   - "[[Eval-Engineering]]"
   - "[[Forward-Deployed-Engineering]]"
-  - "[[Sources/MemOS-gippp69-2026-08-02]]"
-  - "[[Sources/N01ennn-Memory-Engineer-2026-08-02]]"
-  - "[[Sources/LazyGraphRAG-N01ennn-2026-08-02]]"
-  - "[[Sources/NVIDIA-Cross-Model-KV-Cache-Transfer-2026-08-07]]"
   - "[[Methodology/Cost-Efficient-Coding-Agent-Context]]"
   - "[[Process/Approval-Workflow]]"
 ---
@@ -23,8 +19,7 @@ related:
 
 **Definition for this vault:** treat agent memory as a **system with cost, lifecycle, control, and hardware bounds** — not as a vector bucket or a bigger context window.
 
-**Primary synthesis:** @N01ennn “How to be a Memory Engineer” (Stanford · Microsoft · Anthropic · Nvidia), 2 Aug 2026.  
-See [[Sources/N01ennn-Memory-Engineer-2026-08-02]] and the LazyGraphRAG follow-up [[Sources/LazyGraphRAG-N01ennn-2026-08-02]].
+**Primary synthesis:** @N01ennn “How to be a Memory Engineer” (Stanford · Microsoft · Anthropic · Nvidia), 2 Aug 2026, plus the LazyGraphRAG follow-up.
 
 ## Core claim
 
@@ -73,7 +68,7 @@ Example tension (from article): Mem0-class systems can answer fast after paying 
 - Under the algorithms: **KV cache** in HBM is scarce. Full-history context is quadratic; prefix cache often collapses across sessions.  
 - Read memory in: HBM bandwidth, GPU util, tok/s, **KV slots freed**.  
 - **Construction ≈ prefill / background indexing** — rate-limit, batch, defer; do not stall live queries.
-- **Cross-model extension (notes, 2026-08-07):** prefix cache is also **model-bound**. Same-family closed-form KV transfer (arXiv:2608.03893) can recover paid prefill when routing across sizes *you control*. See [[Sources/NVIDIA-Cross-Model-KV-Cache-Transfer-2026-08-07]]. On-radar for self-hosted multi-size fleets; not a change to Vault/skills today. Prefer inspectable file residue as the portable continuation format across *any* model.
+- **Cross-model extension (notes, 2026-08-07):** prefix cache is also **model-bound**. Same-family closed-form KV transfer (arXiv:2608.03893) can recover paid prefill when routing across sizes *you control*. On-radar for self-hosted multi-size fleets; not a change to Vault/skills today. Prefer inspectable file residue as the portable continuation format across *any* model.
 
 ## LazyGraphRAG addendum (same author, later same day)
 
@@ -99,7 +94,7 @@ Microsoft Research (Jonathan Larson numbers as reported): LazyGraphRAG won **~92
 | **Usage dashboard** | Surface cost of write vs query paths in practice |
 | **Coding agent context** | Structural code graph / blast-radius inject — code-domain twin of “density beats volume”; see [[Methodology/Cost-Efficient-Coding-Agent-Context]] |
 | **Graph Engineering (workflow)** | Control-flow graphs — **not** the same as knowledge-graph memory, but both need explicit state schema |
-| **Self-hosted serving (future)** | Nvidia lens extends to same-family KV transfer when you own multi-size routing; see [[Sources/NVIDIA-Cross-Model-KV-Cache-Transfer-2026-08-07]] |
+| **Self-hosted serving (future)** | Nvidia lens extends to same-family KV transfer when you own multi-size routing |
 
 ## What *not* to do
 
@@ -111,7 +106,7 @@ Microsoft Research (Jonathan Larson numbers as reported): LazyGraphRAG won **~92
 
 ## Open questions for the owner
 
-1. Which agent loops deserve a **facts/skills write path** first (job-search prefs? hardware diagnostics? calendar agent)?  
+1. Which agent loops deserve a **facts/skills write path** first (hardware diagnostics? calendar agent?)?  
 2. Should vault + runtime memory share a **contradiction / forgetting** checklist under Methodology/?  
 3. Eval suite: one data-local benchmark comparing raw context vs vector vs graph (LazyGraphRAG or MemOS) on a personal corpus?
 4. When a work-hosted multi-size same-family fleet exists: does prefill invalidation on route show up in $ / TTFT metrics enough to justify KV-transfer R&D?

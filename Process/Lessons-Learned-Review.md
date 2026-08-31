@@ -33,7 +33,7 @@ This is an **outer Nested Cycle** residue process. Human review gates permanent 
 
 ## Loop
 
-```
+```text
 Scope → Gather → Extract → Classify → Draft → Human review → Commit
 ```
 

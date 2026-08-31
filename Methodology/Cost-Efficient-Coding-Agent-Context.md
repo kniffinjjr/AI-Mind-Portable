@@ -10,8 +10,6 @@ related:
   - "[[Eval-Engineering]]"
   - "[[Harness-Loop-Graph-Architecture]]"
   - "[[Skills/Custom/accountant]]"
-  - "[[Sources/LazyGraphRAG-N01ennn-2026-08-02]]"
-  - "[[Sources/code-review-graph-savipww-2026-08-03]]"
   - "[[Methodology/Agent-Process-Porn-and-Reward-Hacking]]"
 ---
 
@@ -19,7 +17,7 @@ related:
 
 **Policy for this vault:** coding agents must run in a **cost-efficient** mode by default — not only when a budget alarm fires. Context is a billable resource (tokens / $ / subscription headroom), same class as tool latency and human attention.
 
-**Primary illustration:** structural code graphs (e.g. code-review-graph) that map once and inject only change-relevant slices. See [[Sources/code-review-graph-savipww-2026-08-03]].
+**Primary illustration:** structural code graphs (e.g. code-review-graph) that map once and inject only change-relevant slices.
 
 ## Core problem
 
@@ -55,7 +53,7 @@ That is **raw context as memory** — the failure Memory Engineering and LazyGra
 
 ## Pattern: code intelligence graph (tool-agnostic)
 
-```
+```text
 repo → parse (Tree-sitter / language servers)
      → nodes: functions, classes, imports, tests
      → edges: calls, inheritance, test coverage

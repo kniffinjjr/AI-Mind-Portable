@@ -25,7 +25,7 @@ Person-specific project residue lives in **My Mind** (personal) and **Work Mind*
 
 ## Four surfaces
 
-```
+```text
 ┌──────────────────────────────────────────────────────────────┐
 │                    AI MIND VAULT                             │
 │         Portable documentation — any person can use          │

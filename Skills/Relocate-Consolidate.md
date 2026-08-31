@@ -55,7 +55,7 @@ Record path, size, modified date, and whether the file is a **catalog**, **paste
 | **B. Work short pack** | ≤4k Codex/GPT work instructions | pack `personalities/` |
 | **C. Personal short pack** | Grok-named / personal domain paste packs | `Skills/Grok-Agent-Personalities` or Short-Instructions |
 | **D. Operational body** | Full SKILL.md | Local skill dir; Vault `Skills/Custom/` overlay when curated |
-| **E. Personal / domain-only** | Tax, RE, trading, recruiter, named products, PDM, … | Vault only (approval gate) — never public pack origin |
+| **E. Personal / domain-only** | Tax, RE, trading, named products, PDM, … | Vault only (approval gate) — never public pack origin |
 | **F. Project residue** | One-off lists | Project folder under Vault `Projects/` or pack `Projects/<slug>/` |
 | **G. Duplicate / obsolete** | Same doctrine twice | One name; tombstone the other |
 

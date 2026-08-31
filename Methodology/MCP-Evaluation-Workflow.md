@@ -8,7 +8,6 @@ related:
   - "[[Concepts/Eval-Engineering]]"
   - "[[Concepts/Harness-Loop-Graph-Architecture]]"
   - "[[Methodology/Agent-Operating-Workflows]]"
-  - "[[Skills/Custom/blender-mcp]]"
 tags: [methodology, mcp, eval, harness, loop, testing]
 ---
 
@@ -49,7 +48,7 @@ The agent under test must never grade itself. Use a separate judge model, determ
 3. Prefer **state-based assertions** for end-to-end (Layer 4).
 4. Keep a permanent Probe Suite entry so regressions are caught forever (Eval Engineering).
 5. Treat tool description quality as first-class — bad descriptions destroy discoverability.
-6. For Blender MCP (and future KiCAD / custom MCPs): scene / board state after natural-language commands is the primary evidence.
+6. For stateful MCP servers (CAD, 3D, editor, or other bridges): scene / board / document state after natural-language commands is the primary evidence.
 
 ## Existing Tools & References (2026)
 
@@ -66,7 +65,7 @@ The agent under test must never grade itself. Use a separate judge model, determ
 - **Loop**: evidence = final system state or judge score; hard stops on iterations / cost.
 - **Graph**: tool-selection graph, multi-server composition, dynamic routing.
 - **Eval Engineering**: the evaluation stack itself becomes a permanent Probe Suite.
-- **Blender MCP skill**: should eventually own its own evaluation loop using scene state as evidence.
+- **Stateful MCP skills**: should own their own evaluation loop using post-command state as evidence.
 
 ## Success Criteria
 

@@ -15,6 +15,8 @@ related:
 
 **Maintained by Page Master.** Full bodies in local SKILL.md; routing in [[Skills/Agent-Skill-Map]].
 
+These are the generic, portable agent profiles. Domain- and tool-specific packs (web, CAD, finance, hardware, etc.) live in the private Agentic OS.
+
 ---
 
 ## page-master
@@ -47,99 +49,9 @@ Tokens → credits → USD; per-project running totals; on-demand assessment. La
 
 ---
 
-## landing-page
-
-Conversion-focused landing/homepage design. One primary CTA; offer clarity in 5s; proof before deep pitch. Triggers: landing page, homepage, signup page, CRO, marketing site.
-
----
-
-## product-page
-
-PDPs from product facts/images. Honest offer stack, proof, variants, upsells, sticky CTA. No fake scarcity. Triggers: product page, PDP, ecommerce product page, photo to product page.
-
----
-
-## react-ui
-
-React UI with TypeScript props, composition, state/effect discipline. Server-friendly defaults; tokens from design-system. QA via better-interface, a11y-build, pixelslop. Triggers: React components, React patterns, hooks, React TypeScript.
-
----
-
-## nextjs-app
-
-Next.js App Router: layouts, RSC vs client, metadata, routing, data/caching mental model. Server default; client islands only when needed. Triggers: Next.js, App Router, RSC, next metadata, route handler.
-
----
-
-## design-system
-
-Tokens, type scale, spacing, components, light/dark. Triggers: design system, tokens, component library, theme.
-
----
-
-## site-ia
-
-Sitemaps, nav, page types, URLs. Triggers: site map, IA, website structure, navigation design.
-
----
-
-## responsive-shell
-
-Mobile-first layouts, breakpoints, page shells. Triggers: responsive layout, mobile-first, breakpoint system.
-
----
-
-## a11y-build
-
-Accessible implementation defaults. Triggers: a11y build, ARIA, keyboard nav, accessible components.
-
----
-
-## form-ux
-
-Forms and multi-step flows. Triggers: form design, multi-step form, checkout flow, validation UX.
-
----
-
-## web-motion
-
-Purposeful micro-interactions; prefers-reduced-motion. Triggers: micro-interactions, UI animation, motion design.
-
----
-
-## seo-page
-
-Search/intent-aligned structure. Triggers: SEO page, meta tags, search intent, organic landing.
-
----
-
 ## first-principles-research
 
 Deconstruct to axioms; evidence hierarchy. Triggers: PHD Grok, first principles, truth-seek.
-
----
-
-## strategic-buyer
-
-TCO, suppliers, risks. Triggers: GrokDeals, should I buy, TCO.
-
----
-
-## fiduciary-investor
-
-Long-horizon index-default guidance. Triggers: GrokBogle, Bogleheads, asset allocation.
-
----
-
-## hardware-forge
-
-DFM to production. Triggers: GrokForge, DFM, BOM, NPI.
-
----
-
-## tx-fl-real-estate
-
-TX/FL investor real estate. Educational only. Triggers: GrokMogul, landlord, HOA, TX/FL rental.
 
 ---
 

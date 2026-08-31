@@ -39,12 +39,14 @@ The Vault is shared pattern. My Mind and Work Mind are yours alone.
 Choose one backend:
 
 **A. GitHub clone**
+
 ```bash
-git clone https://github.com/kniffinjjr/AI-Mind-Portable.git ~/Documents/AI-Mind-Vault
+git clone https://github.com/<your-org-or-user>/AI-Mind-Portable.git ~/Documents/AI-Mind-Vault
 cd ~/Documents/AI-Mind-Vault
 ```
 
 **B. Local Git (no remote required)**
+
 ```bash
 mkdir -p ~/Documents/AI-Mind-Vault
 # copy or clone then remove remote if desired

@@ -73,7 +73,7 @@ tags: [workflow, agents, harness, loop, graph, operating, steps, hard-stops]
 | Step | Agent does | Branch |
 |------|------------|--------|
 | 1.1 | Parse user goal into one sentence checkable outcome | Goal written |
-| 1.2 | Domain skill? (career, FDE, PDM automation, hardware, …) | **YES** → activate skill; continue with AGENTS constraints · **NO** → 1.3 |
+| 1.2 | Domain skill? (FDE, PDM automation, hardware, …) | **YES** → activate skill; continue with AGENTS constraints · **NO** → 1.3 |
 | 1.3 | Single bounded step with clear evidence of done? | **YES** → **W3-inner** · **NO** → 1.4 |
 | 1.4 | Score Qualifying Test (count how many are true): multi-step · independent sources · parallelizable · independent check/grade · material risk if wrong · required human approval | **≥3 true** → mid graph candidate · **≤2** → stay loop (better prompt/context) |
 | 1.5 | Is the goal to improve the *system* (probes, policies, weights, harness tools)? | **YES** → **W6** · **NO** → 1.6 |
@@ -241,7 +241,7 @@ Templates: [[Methodology/RAI-Improvement-Loop-Template]] · [[Methodology/Probe-
 
 # Quick decision card
 
-```
+```text
 UNBOUNDED RETRY?     → W3-inner: max 3; identical fail ×1 then stop
 WRITE NO SHA ×2?     → Multi-Agent-Coordination: escalate
 CAN'T AUDIT?         → Harness observability / residue (W2/W4)

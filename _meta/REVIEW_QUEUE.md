@@ -30,6 +30,7 @@ tags: [system, approval, gate]
 **Proposed by:** Grok Build (this machine)  
 **Type:** toolbox + skill overlays + catalog  
 **Target:**
+
 - `Toolbox/` FreeCAD-MCP, KiCad-MCP, Blender-MCP, OBS-MCP, Docker-MCP, Unity-MCP, ComfyUI
 - `Skills/Custom/` freecad, kicad, obs, docker, unity, comfyui (+ blender-mcp path update)
 - `Toolbox/_index.md`, `Skills/Agent-Skill-Map.md`, `00_Home.md`
@@ -47,6 +48,7 @@ tags: [system, approval, gate]
 **Proposed by:** Grok (this session)  
 **Type:** skill-overlay update + AGENTS.md clarification + core note hygiene  
 **Target:**  
+
 - `Skills/Custom/harness-loop-graph.md` (add scope note + narrow triggers / hard negatives)  
 - `AGENTS.md` (add explicit separation: high-level HLG principles stay core; detailed bounds table / “narration ≠ progress” / single-pass rules stay skill-only)  
 - `Concepts/Harness-Loop-Graph-Architecture.md` (scoped the embedded hard-stop contract)  
@@ -55,6 +57,7 @@ tags: [system, approval, gate]
 After the 2026-08-12 addition of infinite-loop protections, the detailed Skill Execution Contract (bounds table, progress rule, anti-meta-loop) leaked into always-on surfaces and was treated as default turn behavior. Result: simple tasks in local Grok Build took forever.  
 
 **Already applied outside the Vault:**  
+
 - Local skill `$GROK_HOME/skills/harness-loop-graph/SKILL.md`  
 - Public pack `codex-mind-pack` (core + AGENTS.md + skill map)  
 
@@ -70,10 +73,12 @@ After the 2026-08-12 addition of infinite-loop protections, the detailed Skill E
 **Proposed by:** AI Team (Grok / GrokRarian)  
 **Type:** new-note (Methodology) + Home link  
 **Target:**  
+
 - `Methodology/DEV-TEST-PROD-Environments.md` (promoted from `Drafts/DEV-TEST-PROD-Environments.md`)  
 - `00_Home.md` Methodology section  
 
 **Rationale:**  
+
 1. User direction: “I would like to add to our AI mind for project work to establish as DEV, TEST, PROD environments.”  
 2. Follow-on: “Implement infrastructure as code pipelines.”  
 3. Explicit: “Commit the updates.”  
@@ -90,6 +95,7 @@ Environments as first-class harness surfaces; promotion as mid-grain loop with e
 **Proposed by:** AI Team (Grok + Harper + Benjamin + Lucas)  
 **Type:** new-skill-note + AGENTS.md update  
 **Target:**  
+
 - `Skills/Custom/grokrarian.md`  
 - Local: `$GROK_HOME/skills/grokrarian/SKILL.md`  
 - `AGENTS.md` (Boot section)  
@@ -105,6 +111,7 @@ Environments as first-class harness surfaces; promotion as mid-grain loop with e
 **Proposed by:** AI Team (Grok + Harper + Benjamin + Lucas)  
 **Type:** new-note (×2) + local skill  
 **Target:**  
+
 - `Skills/Custom/blender-mcp.md`  
 - `Sources/irinatoxi-Grok-Blender-MCP-Demo-2026-08-04.md`  
 - (local) `$GROK_HOME/skills/blender-mcp/SKILL.md`  
@@ -120,6 +127,7 @@ Environments as first-class harness surfaces; promotion as mid-grain loop with e
 **Proposed by:** AI Team (Grok)  
 **Type:** concept update + new source + new root AGENTS.md + system logs  
 **Target:**
+
 - `Concepts/Harness-Loop-Graph-Architecture.md` (Graph section expanded with Qualifying Test, Diamond, Writer≠Checker, Residue, Start Manual)
 - `Sources/Greg-Isenberg-Graph-Engineering-2026-08-03.md`
 - `AGENTS.md` (new root file for Codex / Claude Code / portable mind)
@@ -137,6 +145,7 @@ Environments as first-class harness surfaces; promotion as mid-grain loop with e
 **Proposed by:** AI Team (Grok Build)  
 **Type:** new-note + light Home link  
 **Target:**
+
 - `Sources/Andreysuperior-Foreman-Clipboard-2026-08-02.md`
 - `00_Home.md` (Sources list)
 **Rationale:** Durable ops-layer thesis: value migrates from “best automation” to the human-facing control surface where agent outputs land (content inbox + two-way files).  
@@ -150,6 +159,7 @@ Environments as first-class harness surfaces; promotion as mid-grain loop with e
 **Proposed by:** AI Team (Grok Build)  
 **Type:** new-note + cross-links  
 **Target:**
+
 - `Methodology/Cost-Efficient-Coding-Agent-Context.md`
 - `Sources/code-review-graph-savipww-2026-08-03.md`
 - Eval Engineering principle 8; Memory Engineering stack row; usage-dashboard rec; Home  
@@ -165,6 +175,7 @@ Environments as first-class harness surfaces; promotion as mid-grain loop with e
 **Proposed by:** AI Team (Grok Build)  
 **Type:** new-note + updates  
 **Target:**
+
 - `Methodology/Agent-Process-Porn-and-Reward-Hacking.md`
 - `Sources/doodlestein-Agent-Process-Porn-2026-08-02.md`
 - `Concepts/Eval-Engineering.md` (principle 7)
@@ -214,6 +225,7 @@ Environments as first-class harness surfaces; promotion as mid-grain loop with e
 **Proposed by:** AI Team (Grok Build)  
 **Type:** new-note (×3 promote from Drafts) + light updates to Home / related  
 **Target:**
+
 - `Concepts/Memory-Engineering.md`
 - `Sources/N01ennn-Memory-Engineer-2026-08-02.md`
 - `Sources/LazyGraphRAG-N01ennn-2026-08-02.md`
@@ -224,7 +236,6 @@ Environments as first-class harness surfaces; promotion as mid-grain loop with e
 **Status:** **APPROVED** — user reply `approve` (2026-08-02). Applied same day.
 
 ---
-
 
 ## [PENDING] Optional follow-ups
 

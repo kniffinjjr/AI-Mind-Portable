@@ -49,7 +49,7 @@ Orthogonal boards:
 
 ## Protocol (short)
 
-```
+```text
 ENQUEUE | <agent> | P<n> | paths: … | purpose: …
 GRANT   | <agent> | id: W# | paths: … | you may write now
 DONE    | <agent> | id: W# | result: <SHA or aborted>

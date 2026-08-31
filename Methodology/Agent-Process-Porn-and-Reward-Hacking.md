@@ -10,15 +10,13 @@ related:
   - "[[Harness-Loop-Graph-Architecture]]"
   - "[[Methodology/Failure-Diagnosis-Guide]]"
   - "[[Methodology/Production-Ready-Design-Checklist]]"
-  - "[[Sources/Multica-Agent-Factory-2026-07-30]]"
-  - "[[Sources/doodlestein-Agent-Process-Porn-2026-08-02]]"
 ---
 
 # Agent Process Porn & Reward Hacking
 
 **Companion to [[Eval-Engineering]]:** having gates is necessary; letting gates *become the work* is a failure mode.
 
-**Primary source:** Jeffrey Emanuel (@doodlestein) thread, 2 Aug 2026 — [[Sources/doodlestein-Agent-Process-Porn-2026-08-02]].
+**Primary source:** Jeffrey Emanuel (@doodlestein) thread, 2 Aug 2026.
 
 ## Two failure modes
 
@@ -27,6 +25,7 @@ related:
 Agent swarms (or humans steering them) optimize **acceptance certificates, meta-docs, and gate theater** instead of shipping useful features.
 
 **Smell tests**
+
 - More commits about process than product  
 - “Closed” work that users can’t use  
 - New validators without a named defect or release gate  
@@ -80,7 +79,7 @@ From the thread’s “Twelve Rules for Agent Life.” Keep the names; adapt cou
 
 ## Anti-pattern: more Multica ceremony without product
 
-[[Sources/Multica-Agent-Factory-2026-07-30]] is correct that **no evals → no production**. This note is the dual: **evals that never ship → also no production.** Hold both.
+The Multica agent-factory thread is correct that **no evals → no production**. This note is the dual: **evals that never ship → also no production.** Hold both.
 
 ## Do not
 

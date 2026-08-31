@@ -3,7 +3,7 @@
 Instruction surface for Codex, Claude Code, Grok, **Grok Build**, and any agent working from this vault or related projects.
 
 **Vault role:** portable controlling documentation only — any person can establish and use it.  
-Domain ops live in **skills**. External products live in **Toolbox/**. Person-specific residue lives in **My Mind** (personal) or **Work Mind** (work IP).  
+Domain ops live in **skills**. Person-specific residue lives in **My Mind** (personal) or **Work Mind** (work IP).  
 Product code lives in product repos. Workflow detail: `Methodology/Agent-Operating-Workflows.md`.
 
 **Paths:** read `PATHS.md` when present (from `PATHS.example.md`); otherwise treat the directory containing this file as `VAULT_ROOT`.
@@ -17,7 +17,6 @@ Product code lives in product repos. Workflow detail: `Methodology/Agent-Operati
 3. Classify task (W1): domain skill? inner loop? mid graph? outer improve?
 4. Prefer existing vault notes over inventing principles.
 5. Externalize state as files. Done requires proof artifacts.
-6. **UI / library / external tool choice:** check `Toolbox/_index.md` before inventing a stack recommendation.
 
 ---
 
@@ -85,7 +84,7 @@ Adopter guide: `Process/Establishing-Your-Minds.md`.
 
 ## 5. Failure quick card
 
-```
+```text
 Missing capability / lost state / no audit → Harness
 Unbounded retry / no evidence / self-grade → Loop
 Wrong order / skipped gate / bad merge → Graph
@@ -108,7 +107,7 @@ Handoff must include: Intent · Decisions · Artifacts by ref · **Ruled-out pat
 
 ## 7. Vault conventions & backends
 
-- **Portable docs only** under `VAULT_ROOT`: Concepts/, Methodology/, AGENTS.md, Skills/, **Toolbox/**, Process/, Sources/, Templates/, `_meta/`.
+- **Portable docs only** under `VAULT_ROOT`: Concepts/, Methodology/, AGENTS.md, Skills/, Process/, Templates/, `_meta/`.
 - **My Mind** (`MY_MIND_ROOT`): personal projects, notes, undeveloped ideas, personal deliverables.
 - **Work Mind** (`WORK_MIND_ROOT`): work-only residue — IP firewall (company time/resources → company ownership).
 - Permanent vault edits: `_meta/REVIEW_QUEUE.md` unless owner directs.
@@ -156,15 +155,12 @@ Full queue skill: `Skills/Custom/load-master.md`. Full lock protocol: `Process/V
 
 ---
 
-## 9. Skills & Toolbox
+## 9. Skills
 
 - **Skills** — activate when triggered; they **apply** HLG; they do not replace it. The detailed hard-stop contract of `harness-loop-graph` remains skill-session only.
-- **Toolbox** (`Toolbox/_index.md`) — external libraries/CLIs/UIs agents (including **Grok Build**) may use.
-  - On UI/frontend/library questions: read the index, then the entry.
-  - Install code in **product / project repos**, not as binaries in the Vault.
-  - Pair component libraries with `pixelslop` / `better-interface` before ship.
-  - Work installs respect Work Mind IP paths (see Toolbox entry + PATHS).
+- Install code in **product / project repos**, not as binaries in the Vault.
+- Domain- and tool-specific skills live in the private Agentic OS, not in this portable edition.
 
 ---
 
-Adhere strictly. When in doubt: externalize state, separate writer from checker, stop on evidence, ask which grain, check PATHS.md, check Toolbox for known tools. Under multi-agent GitHub work: respect the velvet rope.
+Adhere strictly. When in doubt: externalize state, separate writer from checker, stop on evidence, ask which grain, check PATHS.md. Under multi-agent GitHub work: respect the velvet rope.
