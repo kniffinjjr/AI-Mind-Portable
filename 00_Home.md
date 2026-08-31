@@ -15,6 +15,7 @@ tags: [moc, dashboard, ai-mind]
 ## Quick Navigation
 
 ### Concepts
+
 - [[Concepts/Architecture-Visual|Architecture Visual (interactive HTML)]]
 - [[Concepts/Harness-Loop-Graph-Architecture|Harness · Loop · Graph]]
 - [[Concepts/Eval-Engineering|Eval Engineering]]
@@ -23,6 +24,7 @@ tags: [moc, dashboard, ai-mind]
 - [[Concepts/AI-Powered-Premium-Website-Generation|AI-Powered Premium Website Generation]]
 
 ### Methodology
+
 - [[Methodology/DEV-TEST-PROD-Environments|DEV · TEST · PROD Environments + IaC Pipelines]]
 - [[Methodology/Production-Ready-Design-Checklist|Production Checklist]]
 - [[Methodology/Harness-Engineering-Template|Harness Template]]
@@ -36,14 +38,17 @@ tags: [moc, dashboard, ai-mind]
 - [[Methodology/Cost-Efficient-Coding-Agent-Context|Cost-Efficient Coding Agent Context]]
 
 ### Projects
+
 - [[Projects/_index|Projects Index]] — residue lives in My Mind / Work Mind, not here
 
 ### Domains & Context
+
 - [[Domains/_index|Domain Clusters]]
 - [[Personal/My-Brain-Dump|Personal Brain Dump]]
 - [[Work/Work-Brain-Dump|Work Brain Dump]]
 
 ### Skills
+
 - [[Skills/Agent-Skill-Map|Agent ↔ Skill Map]] — route personas to operational skills (Vault full + pack work subset)
 - [[Skills/Relocate-Consolidate|Relocate & Consolidate SKILLS.md]] — fold legacy catalogs; no parallel root SKILLS.md
 - [[Skills/Custom/grokrarian|GrokRarian]] — Vault librarian
@@ -64,9 +69,11 @@ tags: [moc, dashboard, ai-mind]
 - [[Skills/Custom/worlds-greatest-recruiter|worlds-greatest-recruiter]]
 
 ### Toolbox
+
 - [[Toolbox/_index|Toolbox catalog]] — FreeCAD, KiCad, Blender, OBS, Docker, Unity, ComfyUI MCPs/HTTP
 
 ### Sources
+
 - [[Sources/Tenex-MetaHarness-AI-Native-SDLC-2026-08-06|Tenex MetaHarness — AI-Native SDLC]]
 - [[Sources/Saboo-Shubham-Loops-Graphs-Dynamic-Orgs-2026-08-04|Saboo — Loops, Graphs & Dynamic Agent Orgs]]
 - [[Sources/0xWast3-Context-Pipeline-2026-08-04|0xWast3 — Context Pipeline]]
@@ -81,10 +88,10 @@ tags: [moc, dashboard, ai-mind]
 - [[Sources/N01ennn-Memory-Engineer-2026-08-02|Memory Engineer (N01ennn / four labs)]]
 - [[Sources/LazyGraphRAG-N01ennn-2026-08-02|LazyGraphRAG vs 1M context (claim)]]
 - [[Sources/doodlestein-Agent-Process-Porn-2026-08-02|doodlestein process porn / reward hacking]]
-- [[Sources/Andreysuperior-Foreman-Clipboard-2026-08-02|andreysuperior foreman's clipboard / agent ops surface]]
 - [[Sources/code-review-graph-savipww-2026-08-03|code-review-graph (structural coding context)]]
 
 ### Agent Instruction Surface
+
 - [[AGENTS.md|AGENTS.md]] — Portable operating rules
 - [[Skills/Short-Instructions|Short Instructions]] — ≤4000-char skill packs
 - [[Skills/Grok-Agent-Personalities|Grok Agent Personalities]] — ≤4000-char persona packs

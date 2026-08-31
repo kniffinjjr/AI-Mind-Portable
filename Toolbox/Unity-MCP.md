@@ -7,7 +7,6 @@ category: harness
 stack: [Unity 6000, Node, WebSocket]
 related:
   - "[[Skills/Custom/unity]]"
-  - "[[Projects/06-Defend-Your-Calendar/Overview]]"
 tags: [toolbox, unity, mcp, game]
 ---
 
@@ -16,6 +15,7 @@ tags: [toolbox, unity, mcp, game]
 **One-liner:** CoderGamester mcp-unity — Editor WebSocket + Node MCP bridge.
 
 **Links:**
+
 - GitHub: https://github.com/CoderGamester/mcp-unity
 
 ## When to use

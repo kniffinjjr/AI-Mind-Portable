@@ -16,9 +16,10 @@ status: complete
 |----------------------------|-------|----------|
 | Faithfulness               | 85%   | Custom skill descriptions align closely with frontmatter + body of actual SKILL.md files. 13/13 match. |
 | Completeness               | 80%   | Full inventory of custom skills. Concept, source summary, extension guide present. |
-| Structure & Extensibility  | 35%   | Monolithic file. No atomic notes, no [[wikilinks]], no folder hierarchy. |
+| Structure & Extensibility  | 35%   | Monolithic file. No atomic notes, no `[[wikilinks]]`, no folder hierarchy. |
 | Verdict → Control Flow     | 15%   | No review queue, no approval gate. Pure thermometer. |
 | Overall                    | 54%   | Strong as a static catalog. Fails as a living, gated, graph-capable personal AI Mind. |
 
 ## Recommendation (Implemented)
+
 Migrate to multi-file Obsidian-style vault with explicit Review Queue gate + GitHub as durable store. All permanent updates require user approval.

@@ -16,7 +16,7 @@ tags: [toolbox, docker, mcp]
 
 ## When to use
 
-SpinWurkz / MemOS compose, logs, health.
+Multi-service project compose, logs, health.
 
 ## When not to use
 

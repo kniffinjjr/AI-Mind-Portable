@@ -90,15 +90,19 @@ Do not auto-start a second Discover after the report. User must trigger again (`
 ## Discover sources (five)
 
 ### 1. X Radar
+
 Multi-agent, MCP, harness/loop/graph, eval, memory, agent skills.
 
 ### 2. GitHub Radar
+
 Agent, mcp-server, harness, eval, memory topics; recent activity.
 
 ### 3. Working Bookmarks
+
 Active rows in [[_meta/AI-Tech-Radar-Bookmarks]] — re-check every run.
 
 ### 4. Project skill search
+
 Active projects under **My-Mind** and **Work-Mind** (via [[_meta/AI-Tech-Radar-Project-Queries]]):
 
 1. Load project → query map (and Overview focus if needed).
@@ -110,6 +114,7 @@ Active projects under **My-Mind** and **Work-Mind** (via [[_meta/AI-Tech-Radar-P
 Skip `_template` and archived projects.
 
 ### 5. User inject
+
 `radar this: <url>` — optional supplement.
 
 ---
@@ -126,7 +131,7 @@ Skip `_template` and archived projects.
 | **Cost / Practicality** | Realistic for stack |
 | **Domain Fit** | Strengthens existing skill **or** clear project need |
 
-Project-driven hits: Domain Fit is decisive. Prefer “extend smarv-platform” over a third RV skill.
+Project-driven hits: Domain Fit is decisive. Prefer “extend an existing project skill” over adding a third overlapping skill.
 
 ---
 

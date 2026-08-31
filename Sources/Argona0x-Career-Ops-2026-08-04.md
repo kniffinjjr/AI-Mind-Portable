@@ -7,8 +7,6 @@ source: https://x.com/argona0x/status/2084678743935647825
 repo: https://github.com/santifer/career-ops
 tags: [career, job-search, harness, gate, residue, human-in-loop]
 related:
-  - "[[Projects/07-Career-Management]]"
-  - "[[Methodology/Career-Pipeline-Mode]]"
   - "[[Harness-Loop-Graph-Architecture]]"
 ---
 
@@ -20,7 +18,7 @@ Open-source MIT job-search operator that turns an AI coding CLI (Claude Code, Co
 
 ## Pipeline shape
 
-```
+```text
 PORTALS (Greenhouse/Ashby/Lever/Wellfound + company pages)
     ↓
 EVALUATE (A–F dimensions → 1.0–5.0)  +  BLOCK G (legitimacy, scored apart)
