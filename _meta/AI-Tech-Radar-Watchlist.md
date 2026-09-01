@@ -81,6 +81,7 @@ tags: [radar, watchlist, outer-loop, system]
 | **Grok Automations** | 2026-08-12 | 2026-08-12 | Watch | Scheduled + event triggers (email, Plaid, Stripe); runs as saved Grok conversations with connectors/skills | Product surface under Grok ecosystem |
 | **Grok 4.6** (agentic) | 2026-08-12 | 2026-08-12 | Watch | Model refresh tied to Bot beta widen; Musk: fix early Bot issues then release 4.6 | [Elon](https://x.com/elonmusk/status/2087233507370147920) |
 | OpenMausBot (OSS reaction) | 2026-08-12 | 2026-08-12 | Watch | Local-first multi-agent chat UI reacting to Grok Bot; own memory/personality per bot; BYO models | Post-launch OSS mirror pattern |
+| **Tailcat** (Tailscale) | 2026-09-01 | 2026-09-01 | Rising | Encrypted netcat over Tailscale data plane without accounts/control plane; Bot↔desktop bridge + future SmaRV Linux gateway | [blog](https://tailscale.com/blog/tailcat) · [GitHub](https://github.com/tailscale/tailcat) · [[Toolbox/Tailcat]] |
 
 ## How items are added
 

@@ -3,7 +3,7 @@ title: Toolbox Index
 type: catalog
 status: live
 created: 2026-08-13
-updated: 2026-08-16
+updated: 2026-09-01
 related:
   - "[[AGENTS.md]]"
   - "[[Skills/Agent-Skill-Map]]"
@@ -57,6 +57,7 @@ Toolbox notes are **how-to-find-and-use**. They do not store API keys or company
 | [[Toolbox/Docker-MCP]] | Infra / harness | Local Engine + compose | Docker Desktop up |
 | [[Toolbox/Unity-MCP]] | Game / harness | Editor scenes + play mode | DYC project :8090 |
 | [[Toolbox/ComfyUI]] | Image / harness | Local txt2img/upscale HTTP | Not an MCP |
+| [[Toolbox/Tailcat]] | Network / harness | Account-free WireGuard pipe (Bot↔desktop, lab ports, future SmaRV gateway) | No Tailscale login; ephemeral `tc…` token |
 
 ---
 
