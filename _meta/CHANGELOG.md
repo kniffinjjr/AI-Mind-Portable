@@ -2,10 +2,14 @@
 title: Changelog
 type: system
 created: 2026-08-02
-updated: 2026-08-16
+updated: 2026-09-01
 ---
 
 # Changelog
+
+## 2026-09-01
+
+- **Toolbox/Tailcat:** Account-free WireGuard/netcat harness (Tailscale data plane, no control plane). Catalogued for Grok Bot ↔ desktop bridging and future SmaRV coach-LAN gateway reachability (not on-ESP). Draft runbook: `Drafts/Tailcat-Grok-Bot-Desktop-Bridge.md`. Radar: Rising.
 
 ## 2026-08-16
 

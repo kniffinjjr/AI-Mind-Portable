@@ -64,7 +64,7 @@ tags: [moc, dashboard, ai-mind]
 - [[Skills/Custom/worlds-greatest-recruiter|worlds-greatest-recruiter]]
 
 ### Toolbox
-- [[Toolbox/_index|Toolbox catalog]] — FreeCAD, KiCad, Blender, OBS, Docker, Unity, ComfyUI MCPs/HTTP
+- [[Toolbox/_index|Toolbox catalog]] — FreeCAD, KiCad, Blender, OBS, Docker, Unity, ComfyUI MCPs/HTTP; [[Toolbox/Tailcat|Tailcat]] Bot↔desktop pipe
 
 ### Sources
 - [[Sources/Tenex-MetaHarness-AI-Native-SDLC-2026-08-06|Tenex MetaHarness — AI-Native SDLC]]

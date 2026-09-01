@@ -13,6 +13,24 @@ tags: [system, approval, gate]
 
 ---
 
+## [APPROVED BY DIRECTION] 2026-09-01 — Tailcat Toolbox + Bot↔desktop bridge draft
+
+**Proposed by:** Cursor Cloud agent  
+**Type:** toolbox entry + draft runbook + radar row  
+**Target:**
+- `Toolbox/Tailcat.md` (live)
+- `Toolbox/_index.md` (catalog row)
+- `Drafts/Tailcat-Grok-Bot-Desktop-Bridge.md` (manual-validate runbook)
+- `_meta/AI-Tech-Radar-Watchlist.md` (Rising)
+- `_meta/CHANGELOG.md`
+
+**Rationale:** User: “Bring into toolbox, and let’s look into how we can establish a connection with grok bot and my desktop. Future wise this might be a good way to connect the SmaRV thermostats.”
+
+**Impact / Risk:** low (additive catalog + draft; no doctrine change; no binaries in Vault)  
+**Status:** **APPROVED BY USER DIRECTION** — 2026-09-01
+
+---
+
 ## [APPROVED BY DIRECTION] 2026-08-16 — Privacy / portability pass + MCP catalog
 
 **Proposed by:** Grok Build  
