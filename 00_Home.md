@@ -62,9 +62,10 @@ tags: [moc, dashboard, ai-mind]
 - [[Skills/Custom/blender-mcp|blender-mcp]] / [[Skills/Custom/freecad|freecad]] / [[Skills/Custom/kicad|kicad]]
 - [[Skills/Custom/obs|obs]] / [[Skills/Custom/docker|docker]] / [[Skills/Custom/unity|unity]] / [[Skills/Custom/comfyui|comfyui]]
 - [[Skills/Custom/worlds-greatest-recruiter|worlds-greatest-recruiter]]
+- [[Skills/Custom/product-marketing|product-marketing]] / [[Skills/Custom/copywriting|copywriting]] / [[Skills/Custom/copy-editing|copy-editing]] / [[Skills/Custom/cro|cro]] / [[Skills/Custom/seo-audit|seo-audit]] — curated marketing subset ([[Toolbox/Marketing-Skills]])
 
 ### Toolbox
-- [[Toolbox/_index|Toolbox catalog]] — FreeCAD, KiCad, Blender, OBS, Docker, Unity, ComfyUI MCPs/HTTP
+- [[Toolbox/_index|Toolbox catalog]] — FreeCAD, KiCad, Blender, OBS, Docker, Unity, ComfyUI MCPs/HTTP; Marketing Skills
 
 ### Sources
 - [[Sources/Tenex-MetaHarness-AI-Native-SDLC-2026-08-06|Tenex MetaHarness — AI-Native SDLC]]

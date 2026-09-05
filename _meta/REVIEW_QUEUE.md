@@ -2,7 +2,7 @@
 title: Review Queue
 type: system
 created: 2026-08-02
-updated: 2026-08-16
+updated: 2026-09-05
 status: live
 tags: [system, approval, gate]
 ---
@@ -10,6 +10,23 @@ tags: [system, approval, gate]
 # Review Queue
 
 **All permanent changes to the AI Mind Vault must be proposed here and receive explicit user approval before being applied** — except when the user directly requests the work (then log as approved by direction).
+
+---
+
+## [APPROVED BY DIRECTION] 2026-09-05 — Curated Marketing Skills subset
+
+**Proposed by:** Cloud agent  
+**Type:** skill vendor (selective) + toolbox entry + catalog routing  
+**Target:**
+- `Skills/Custom/product-marketing/`, `copywriting/`, `copy-editing/`, `cro/`, `seo-audit/`
+- `Skills/Custom/marketingskills-NOTICE.md`
+- `Toolbox/Marketing-Skills.md`, `Toolbox/_index.md`
+- `Skills/Agent-Skill-Map.md`, `Skills/Short-Instructions.md`, `00_Home.md`
+
+**Rationale:** User directed: review X post on coreyhaines31/marketingskills, then commit the worthwhile skills. Curated five high-leverage skills only; full upstream library stays product-repo install via Toolbox.
+
+**Impact / Risk:** low (additive domain skills + attribution; no HLG doctrine change)  
+**Status:** **APPROVED BY USER DIRECTION** — “ok lets commit the worth while skills”
 
 ---
 

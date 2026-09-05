@@ -3,8 +3,8 @@ title: Agent ↔ Skill Map
 type: catalog
 status: live
 created: 2026-08-06
-updated: 2026-08-16
-# last add: local CAD/stream/docker/unity/comfy hubs
+updated: 2026-09-05
+# last add: curated marketing skills (coreyhaines31/marketingskills subset)
 maintainer: Page Master
 purpose: Route agent personalities to operational skills (Vault full set + pack alignment)
 related:
@@ -12,6 +12,7 @@ related:
   - "[[Skills/Short-Instructions]]"
   - "[[Skills/Relocate-Consolidate]]"
   - "[[Skills/Custom/book-skill]]"
+  - "[[Toolbox/Marketing-Skills]]"
   - "[[AGENTS.md]]"
 ---
 
@@ -82,6 +83,22 @@ Portable names used in codex-mind-pack `personalities/`. Same skills; neutral br
 | `nextjs-app` | App Router, RSC vs client, layouts, metadata, data/caching |
 
 **Design → implement pipeline:** `site-ia` → `design-system` → `responsive-shell` → `landing-page` / `product-page` / `form-ux` → `react-ui` / `nextjs-app` → `a11y-build` → `web-motion` → `seo-page` → `better-interface` + `pixelslop`.
+
+## Marketing cluster (any agent)
+
+Curated subset from [[Toolbox/Marketing-Skills]] (upstream `coreyhaines31/marketingskills`). Product-repo context file: `.agents/product-marketing.md`.
+
+| Skill | Use |
+|-------|-----|
+| `product-marketing` | Shared product / audience / positioning context before other marketing skills |
+| `copywriting` | New marketing copy (homepage, landing, pricing, features) |
+| `copy-editing` | Edit / tighten existing copy (checker pass; Writer ≠ Checker) |
+| `cro` | Conversion diagnosis + experiment framing on marketing pages/forms |
+| `seo-audit` | Technical + on-page SEO health check (pairs with `seo-page` for page build) |
+
+**Marketing pipeline:** `product-marketing` → (`cro` and/or `seo-audit`) → `copywriting` → `copy-editing` → page skills (`landing-page` / `product-page` / `seo-page`) → `pixelslop` / `better-interface`.
+
+Additional upstream skills (email, ads, councils, loops, etc.): install in the **product** repo via Toolbox — do not bulk-vendor into the vault.
 
 ## Cross-cutting
 
