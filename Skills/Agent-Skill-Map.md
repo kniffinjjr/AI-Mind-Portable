@@ -3,8 +3,8 @@ title: Agent ↔ Skill Map
 type: catalog
 status: live
 created: 2026-08-06
-updated: 2026-08-16
-# last add: local CAD/stream/docker/unity/comfy hubs
+updated: 2026-09-06
+# last add: OSS agent-ops pack (35 SaaS replacements)
 maintainer: Page Master
 purpose: Route agent personalities to operational skills (Vault full set + pack alignment)
 related:
@@ -105,6 +105,50 @@ Portable names used in codex-mind-pack `personalities/`. Same skills; neutral br
 | `docker` | Local Docker Engine |
 | `unity` | Unity 6 Editor (DYC) |
 | `comfyui` | Local ComfyUI HTTP (not MCP) |
+
+## Open-source SaaS replacements (agent ops)
+
+Source: [[Sources/Ihtesham-OSS-Stack-Post-2026-09-06]] · catalog [[Toolbox/Open-Source-Stack]] · pack [[Skills/Custom/oss-agent-ops/README]]
+
+| Skill | Operates | Replaces |
+|-------|----------|----------|
+| `penpot` | Penpot | Canva |
+| `listmonk` | Listmonk | Klaviyo |
+| `open-seo` | OpenSEO | Semrush |
+| `ollama` | Ollama | ChatGPT Pro |
+| `appflowy` | AppFlowy | Notion |
+| `n8n` | n8n | Zapier |
+| `cap` | Cap | Loom |
+| `jitsi` | Jitsi Meet | Zoom |
+| `mattermost` | Mattermost | Slack |
+| `vaultwarden` | Vaultwarden | 1Password |
+| `syncthing` | Syncthing | Dropbox |
+| `immich` | Immich | Google Photos |
+| `cal-com` | Cal.com | Calendly |
+| `nocodb` | NocoDB | Airtable |
+| `formbricks` | Formbricks | Typeform |
+| `umami` | Umami | Google Analytics |
+| `languagetool` | LanguageTool | Grammarly |
+| `bruno` | Bruno | Postman |
+| `plane` | Plane | Jira |
+| `planka` | Planka | Trello |
+| `chatwoot` | Chatwoot | Intercom |
+| `docuseal` | DocuSeal | DocuSign |
+| `coolify` | Coolify | Heroku |
+| `supabase` | Supabase | Firebase |
+| `gimp` | GIMP | Photoshop |
+| `kdenlive` | Kdenlive | Premiere Pro |
+| `medusa` | Medusa | Shopify |
+| `webstudio` | Webstudio | Webflow |
+| `twenty` | Twenty CRM | Salesforce |
+| `appsmith` | Appsmith | Retool |
+| `metabase` | Metabase | Tableau |
+| `signoz` | SigNoz | Datadog |
+| `keycloak` | Keycloak | Auth0 |
+| `joplin` | Joplin | Evernote |
+| `shlink` | Shlink | Bitly |
+
+Bodies: `Skills/Custom/oss-agent-ops/<skill>/SKILL.md` · Cursor plugin `~/.cursor/plugins/local/oss-agent-ops/`.
 
 ---
 

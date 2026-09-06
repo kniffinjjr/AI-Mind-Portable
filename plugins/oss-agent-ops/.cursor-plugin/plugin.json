@@ -1,0 +1,16 @@
+{
+  "name": "oss-agent-ops",
+  "version": "1.0.0",
+  "description": "Agent skills to operate 35 open-source SaaS alternatives (from ihteshamali OSS stack post).",
+  "author": {
+    "name": "Joe Kniffin"
+  },
+  "license": "MIT",
+  "keywords": [
+    "oss",
+    "skills",
+    "api",
+    "self-host",
+    "agent-ops"
+  ]
+}

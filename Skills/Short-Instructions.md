@@ -3,7 +3,7 @@ title: Skill & Agent Short Instructions
 type: catalog
 status: live
 created: 2026-08-06
-updated: 2026-08-12
+updated: 2026-09-06
 maintainer: Page Master
 purpose: Paste-ready ≤4000 character instruction packs for Grok Agents custom instructions
 related:
@@ -146,6 +146,12 @@ TX/FL investor real estate. Educational only. Triggers: GrokMogul, landlord, HOA
 ## fde
 
 Forward deployed production AI tools. Triggers: FDE, treat me as the client, production AI tool.
+
+---
+
+## oss-agent-ops
+
+Operate self-hosted / open-source SaaS replacements via official CLI, REST, SDK, or MCP. Catalog: Penpot, Listmonk, OpenSEO, Ollama, AppFlowy, n8n, Cap, Jitsi, Mattermost, Vaultwarden, Syncthing, Immich, Cal.com, NocoDB, Formbricks, Umami, LanguageTool, Bruno, Plane, Planka, Chatwoot, DocuSeal, Coolify, Supabase, GIMP, Kdenlive, Medusa, Webstudio, Twenty, Appsmith, Metabase, SigNoz, Keycloak, Joplin, Shlink. Load `Skills/Custom/oss-agent-ops/<slug>/SKILL.md` for the named app. Secrets in env only. Mutating sends/deletes/deploys/e-sign need a human gate. Triggers: OSS alternative, self-host, replace Canva/Notion/Zapier/…, open source stack.
 
 ---
 
