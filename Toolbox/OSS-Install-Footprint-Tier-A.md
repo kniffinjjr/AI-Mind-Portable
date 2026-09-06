@@ -15,9 +15,9 @@ tags: [toolbox, oss, install, storage, footprint]
 
 **Scope:** Only open-source apps from the ihteshamali stack that help **current** projects — not all 35.
 
-**Assumptions:** one Linux Docker host for services; Mac workstation for local tools. Paths use `/opt/oss-stack/<app>` for services.
+**Assumptions:** Tier A services can run on **Joe’s Mac via Docker Desktop** using `Scripts/oss-tier-a-mac/` (Coolify skipped on laptop). Paths: `~/oss-stack/<app>` on Mac; `/opt/oss-stack/<app>` if later moved to a Linux VPS.
 
-**Already installed (Joe):** **Ollama on Mac** — skip binary install; only budget model storage + optional Syncthing/Bruno.
+**Already installed (Joe):** **Ollama on Mac** — skip binary install; only budget model storage + Syncthing/Bruno + Docker services.
 
 **Sizing notes:** Image sizes are compressed Hub `full_size` (pull size). On disk after extract, plan **~2–3×** image + volumes. Times assume ~100 Mbps down and a mid VPS.
 
