@@ -15,7 +15,9 @@ tags: [toolbox, oss, install, storage, footprint]
 
 **Scope:** Only open-source apps from the ihteshamali stack that help **current** projects — not all 35.
 
-**Assumptions:** one Linux Docker host for services; Ollama + Syncthing + Bruno on the workstation (or RV laptop). Paths use `/opt/oss-stack/<app>` for services.
+**Assumptions:** one Linux Docker host for services; Mac workstation for local tools. Paths use `/opt/oss-stack/<app>` for services.
+
+**Already installed (Joe):** **Ollama on Mac** — skip binary install; only budget model storage + optional Syncthing/Bruno.
 
 **Sizing notes:** Image sizes are compressed Hub `full_size` (pull size). On disk after extract, plan **~2–3×** image + volumes. Times assume ~100 Mbps down and a mid VPS.
 
@@ -46,10 +48,10 @@ tags: [toolbox, oss, install, storage, footprint]
 | 5 | **Penpot** | Canva | SpinWurkz UI, Smarvy brand, DYC mockups | Docker Compose | `/opt/oss-stack/penpot/` | frontend+backend ~0.7 GB compressed; full stack (exporter/redis/exporter/exporter) often **3–6 GB** pulls | **10–20 GB** with assets | **15–25 min** |
 | 6 | **DocuSeal** | DocuSign | Colony leases, SpinWurkz contracts | Docker | `/opt/oss-stack/docuseal/data/` | Image ~0.23 GB | **1–3 GB** (+ signed PDFs) | **5–10 min** |
 | 7 | **Umami** | Google Analytics | Portfolio, client sites | Docker Compose + Postgres | `/opt/oss-stack/umami/` | App image ~0.3–0.6 GB est. + Postgres | **2–5 GB** | **10–15 min** |
-| 8 | **Ollama** | ChatGPT Pro | Offline/RV agents, GrokTokens cost control | Native (desktop/server) | Binary: package default · Models: `~/.ollama/models` or `$OLLAMA_MODELS` | Binary ~**4 GB**; models separate | **Binary 4 GB + models** (e.g. one 8B Q4 ≈ **5 GB**; 3 models ≈ **15–40 GB**) | Binary **5–10 min**; each model pull **2–20 min** |
-| 9 | **Syncthing** | Dropbox | My-Mind ↔ Work-Mind ↔ KiCad ↔ GDD assets | Native desktop (optional Docker) | Config `~/.config/syncthing/` · synced folders **you choose** (e.g. `~/Sync/My-Mind`) | Binary tiny (~20 MB); Docker image ~0.02 GB | **Config &lt;100 MB**; data = size of synced trees | **5–15 min** to pair devices |
+| 8 | **Ollama** | ChatGPT Pro | Offline/RV agents, GrokTokens cost control | Native (Mac) — **INSTALLED** | App: `/Applications/Ollama.app` · Models: `~/.ollama/models` (override with `$OLLAMA_MODELS`) | Binary already present; models separate | **Models only** (e.g. one 8B Q4 ≈ **5 GB**; 3 models ≈ **15–40 GB**) | **0 min install**; each model pull **2–20 min** |
+| 9 | **Syncthing** | Dropbox | My-Mind ↔ Work-Mind ↔ KiCad ↔ GDD assets | Native Mac app (optional Docker) | Config `~/Library/Application Support/Syncthing/` · synced folders **you choose** (e.g. `~/Sync/My-Mind`) | Binary tiny (~20 MB); Docker image ~0.02 GB | **Config &lt;100 MB**; data = size of synced trees | **5–15 min** to pair devices |
 
-**Bruno** (Postman OSS) — add as desktop/npm companion for pc-api-hub / connectors: `npm i -g @usebruno/cli` · collections in each product repo · **&lt;200 MB** · **2–5 min**. Not a server.
+**Bruno** (Postman OSS) — add as Mac desktop/npm companion for pc-api-hub / connectors: `npm i -g @usebruno/cli` · collections in each product repo · **&lt;200 MB** · **2–5 min**. Not a server.
 
 ---
 
@@ -64,22 +66,25 @@ tags: [toolbox, oss, install, storage, footprint]
 
 Coolify alone wants ≥10–30 GB free; hosting Plane+Penpot+n8n+Umami+DocuSeal+Vaultwarden on the same box is what drives the 100 GB+ comfort zone.
 
-### B. Workstation / RV laptop (Ollama + Syncthing + Bruno)
+### B. Mac workstation (Ollama already installed)
 
 | Item | Disk | Time |
 |------|------|------|
-| Ollama binary | ~4 GB | 5–10 min |
-| First useful coding model (e.g. 8B Q4) | ~5 GB | 3–10 min |
-| Syncthing + Bruno | &lt;0.5 GB | ~10–20 min |
-| **Starter total** | **~10–15 GB** | **~20–40 min** |
-| Comfortable multi-model | **+20–60 GB** | as pulled |
+| Ollama binary | **done** (already on Mac) | **0** |
+| Models already pulled | measure with `du -sh ~/.ollama` | — |
+| Additional models (optional) | ~5 GB per 8B Q4-class | 3–10 min each |
+| Syncthing + Bruno (still to install) | &lt;0.5 GB | ~10–20 min |
+| **Remaining Mac install work** | **&lt;1 GB** (+ any new models) | **~10–20 min** (no Ollama) |
+| Comfortable multi-model headroom | **+20–60 GB** free for pulls | as pulled |
+
+Check current model disk: `du -sh ~/.ollama` and `ollama list`.
 
 ### C. Combined (recommended first month)
 
 | | |
 |--|--|
-| **Disk to reserve** | **~150 GB** on Docker host + **~40 GB** on laptop for models |
-| **First weekend install** | Coolify → Vaultwarden → n8n → Plane → DocuSeal → Umami → Penpot (services); Ollama+Syncthing+Bruno (laptop) |
+| **Disk to reserve** | **~150 GB** on Docker host + **enough free on Mac for models you already keep / will pull** |
+| **First weekend install** | Coolify → Vaultwarden → n8n → Plane → DocuSeal → Umami → Penpot (services); Syncthing + Bruno on Mac (**Ollama skip**) |
 | **Defer** | Immich, Cap, Kdenlive, Medusa, Webstudio, Twenty, Chatwoot, Appsmith, Metabase, SigNoz, Keycloak, Listmonk, OpenSEO, AppFlowy, Jitsi, Mattermost, Cal.com, NocoDB, Formbricks, LanguageTool, Shlink, GIMP |
 
 ---
@@ -97,9 +102,10 @@ Coolify alone wants ≥10–30 GB free; hosting Plane+Penpot+n8n+Umami+DocuSeal+
   umami/
   README.md         # which ports, domains, backup cron
 
-# Workstation
-~/.ollama/models          # or $OLLAMA_MODELS=/data/ollama/models
-~/.config/syncthing/
+# Mac (Joe — Ollama already installed)
+/Applications/Ollama.app
+~/.ollama/models          # or $OLLAMA_MODELS if redirected to a larger volume
+~/Library/Application Support/Syncthing/
 ~/Sync/My-Mind/
 ~/Sync/Work-Mind/         # Work IP only on work-approved devices
 ~/Sync/KiCad/
@@ -119,7 +125,7 @@ Coolify alone wants ≥10–30 GB free; hosting Plane+Penpot+n8n+Umami+DocuSeal+
 4. **DocuSeal** — Colony high-stakes docs (human gate forever)  
 5. **Umami** — portfolio analytics  
 6. **Penpot** — design when UI work starts  
-7. **Ollama / Syncthing / Bruno** on laptop in parallel anytime  
+7. **Syncthing / Bruno** on Mac anytime (**Ollama already done**)  
 
 ---
 
@@ -143,7 +149,7 @@ Each Tier B item: add a one-page footprint row here before install.
 
 - Docker Hub `full_size` sampled 2026-09-06 for n8n, vaultwarden, docuseal, penpot frontend/backend, plane-backend, syncthing  
 - Coolify disk guidance from Coolify docs (10 GB min free; 30 GB common install guidance; production growth higher)  
-- Ollama binary ~4 GB + model sizes from Ollama docs / model library norms  
+- Ollama: Joe confirmed **already installed on Mac** (2026-09-06); models live under `~/.ollama` unless `$OLLAMA_MODELS` is set  
 - Project mapping from My-Mind / Work-Mind overviews + product repos  
 
-Sizes are **planning estimates**, not measured on Joe’s hardware. Re-measure with `docker system df` and `du -sh` after first install weekend.
+Sizes are **planning estimates**, not measured on Joe’s hardware. Re-measure with `docker system df`, `du -sh ~/.ollama`, and `ollama list` after first install weekend.
