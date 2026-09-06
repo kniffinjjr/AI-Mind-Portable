@@ -22,6 +22,7 @@ tags: [toolbox, oss, self-host, agent-ops]
 **Links:**
 - Skills pack: [[Skills/Custom/oss-agent-ops/README]]
 - Cursor plugin: `~/.cursor/plugins/local/oss-agent-ops/`
+- **Install footprint (Tier A for current projects):** [[Toolbox/OSS-Install-Footprint-Tier-A]]
 
 ## When to use
 

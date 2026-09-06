@@ -58,6 +58,7 @@ Toolbox notes are **how-to-find-and-use**. They do not store API keys or company
 | [[Toolbox/Unity-MCP]] | Game / harness | Editor scenes + play mode | DYC project :8090 |
 | [[Toolbox/ComfyUI]] | Image / harness | Local txt2img/upscale HTTP | Not an MCP |
 | [[Toolbox/Open-Source-Stack]] | SaaS / harness | 35 OSS replacements + agent skills | From ihteshamali post 2026-09-06 |
+| [[Toolbox/OSS-Install-Footprint-Tier-A]] | SaaS / harness | Storage, paths, install time for project-priority OSS | Tier A only — not all 35 |
 
 ---
 
