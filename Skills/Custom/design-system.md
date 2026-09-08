@@ -23,12 +23,14 @@ design system · tokens · component library · theme · UI kit · design tokens
 
 | Artifact | Purpose |
 |----------|---------|
+| **`Designs.md` (required)** | Product UI brief + **FDE client discovery** — what the client wants, success/anti-goals, brand refs, ship gate. Template: [[Templates/Designs]]. |
 | `DESIGN_SYSTEM.md` | Tokens, type scale, spacing, radius, motion defaults, never-do list |
 | `tokens-preview.html` | Swatches, type specimens, sample components |
 | Component stubs (optional) | Button, input, card, nav patterns aligned to tokens |
 
 ## Workflow
 
+0. Open or create root **`Designs.md`**. If Client answers are empty for this change, run the FDE interview with the user as client **before** inventing tokens or layouts.
 1. Gather refs, existing CSS variables, or product constraints.
 2. Define palette roles (bg, surface, ink, muted, accent, success/warn/danger).
 3. Define type roles (display, title, body, label, mono) + modular scale.
@@ -37,6 +39,7 @@ design system · tokens · component library · theme · UI kit · design tokens
 6. Theme matrix if dark mode: map each role.
 7. Never-do list (e.g. pure black text on pure white only, rainbow gradients, 6 font families).
 8. Preview HTML for visual verification; iterate with user.
+9. Update `Designs.md` decisions + ship gate when UI ships.
 
 ## Quality bar
 
